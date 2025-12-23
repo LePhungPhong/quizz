@@ -736,14 +736,12 @@ export default function App() {
                 <div className="absolute bottom-0 w-full bg-white border-t border-slate-100 p-4 flex gap-3 z-10 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
                   <Button
                     variant="ghost"
-                    className="w-16 px-0 bg-slate-700 text-white hover:bg-slate-600 shadow-md transition-all active:scale-95"
+                    className="w-14 px-0 bg-slate-600 text-white hover:bg-slate-300"
                     onClick={() => setCurrentQIndex((i) => Math.max(0, i - 1))}
                     disabled={currentQIndex === 0}
-                    title="Quay lại câu trước"
                   >
-                    <ChevronLeft size={32} strokeWidth={3} />
+                    <ChevronLeft size={30} strokeWidth={4} />
                   </Button>
-
                   {sessionType === "exam" || answers[currentQIndex] ? (
                     <Button
                       onClick={() =>
