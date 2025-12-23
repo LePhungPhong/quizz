@@ -733,14 +733,15 @@ export default function App() {
                     )}
                 </div>
 
-                <div className="absolute bottom-0 w-full bg-white border-t border-slate-100 p-4 flex gap-3 z-10">
+                <div className="absolute bottom-0 w-full bg-white border-t border-slate-100 p-4 flex gap-3 z-10 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
                   <Button
                     variant="ghost"
-                    className="w-12 px-0"
+                    className="w-16 px-0 bg-slate-700 text-white hover:bg-slate-600 shadow-md transition-all active:scale-95"
                     onClick={() => setCurrentQIndex((i) => Math.max(0, i - 1))}
                     disabled={currentQIndex === 0}
+                    title="Quay lại câu trước"
                   >
-                    <ChevronLeft size={24} />
+                    <ChevronLeft size={32} strokeWidth={3} />
                   </Button>
 
                   {sessionType === "exam" || answers[currentQIndex] ? (
@@ -751,14 +752,20 @@ export default function App() {
                           : finishQuiz()
                       }
                       variant={sessionType === "exam" ? "danger" : "primary"}
-                      className="flex-1"
+                      className="flex-1 shadow-lg shadow-indigo-200/50"
                     >
-                      {currentQIndex === displayQuestions.length - 1
-                        ? "Nộp Bài"
-                        : "Câu Tiếp Theo"}
+                      {currentQIndex === displayQuestions.length - 1 ? (
+                        <span className="flex items-center gap-2">
+                          Nộp Bài <CheckCircle size={18} />
+                        </span>
+                      ) : (
+                        <span className="flex items-center gap-2">
+                          Câu Tiếp Theo <ChevronRight size={18} />
+                        </span>
+                      )}
                     </Button>
                   ) : (
-                    <div className="flex-1 flex items-center justify-center text-slate-400 text-sm italic font-medium bg-slate-50 rounded-2xl">
+                    <div className="flex-1 flex items-center justify-center text-slate-400 text-sm italic font-medium bg-slate-50 border border-slate-100 rounded-2xl py-3.5 select-none">
                       Vui lòng chọn đáp án
                     </div>
                   )}
