@@ -1,0 +1,6482 @@
+[
+  {
+    "id": 1,
+    "clo": "CLO1.1",
+    "question": "IoT là viết tắt của cụm từ tiếng Anh nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Internet of Technology"
+      },
+      {
+        "id": "B",
+        "text": "Internet of Things"
+      },
+      {
+        "id": "C",
+        "text": "Internal of Things"
+      },
+      {
+        "id": "D",
+        "text": "Internet of Telecommunication"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Internet of Things",
+    "confidence": 0.99,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 2,
+    "clo": "CLO1.1",
+    "question": "Ai là người đầu tiên đưa ra thuật ngữ \"Internet of Things\"?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bill Gates"
+      },
+      {
+        "id": "B",
+        "text": "Steve Jobs"
+      },
+      {
+        "id": "C",
+        "text": "Kevin Ashton"
+      },
+      {
+        "id": "D",
+        "text": "John Romkey"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Kevin Ashton",
+    "confidence": 0.99,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 3,
+    "clo": "CLO1.1",
+    "question": "Chức năng chính của cảm biến (sensor) trong hệ thống IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thực hiện một hành động vật lý"
+      },
+      {
+        "id": "B",
+        "text": "Xử lý dữ liệu tại chỗ"
+      },
+      {
+        "id": "C",
+        "text": "Thu thập dữ liệu từ môi trường xung quanh"
+      },
+      {
+        "id": "D",
+        "text": "Truyền dữ liệu lên đám mây"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Thu thập dữ liệu từ môi trường xung quanh",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 4,
+    "clo": "CLO1.1",
+    "question": "Chức năng chính của cơ cấu chấp hành (actuator) trong hệ thống IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thu thập dữ liệu về nhiệt độ"
+      },
+      {
+        "id": "B",
+        "text": "Chuyển đổi tín hiệu điều khiển thành một hành động vật lý"
+      },
+      {
+        "id": "C",
+        "text": "Mã hóa dữ liệu trước khi gửi đi"
+      },
+      {
+        "id": "D",
+        "text": "Phân tích dữ liệu từ cảm biến"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Chuyển đổi tín hiệu điều khiển thành một hành động vật lý",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 5,
+    "clo": "CLO1.1",
+    "question": "Đâu là bộ ba cảm biến phổ biến nhất trong các ứng dụng IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cảm biến nhiệt độ, cảm biến chuyển động, cảm biến khí gas"
+      },
+      {
+        "id": "B",
+        "text": "Cảm biến GPS, camera, microphone"
+      },
+      {
+        "id": "C",
+        "text": "Cảm biến RFID, NFC, cảm biến vân tay"
+      },
+      {
+        "id": "D",
+        "text": "Cảm biến âm thanh, cảm biến áp suất, cảm biến trọng lực"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Cảm biến nhiệt độ, cảm biến chuyển động, cảm biến khí gas",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 6,
+    "clo": "CLO1.1",
+    "question": "Wi-Fi là công nghệ kết nối thuộc loại mạng nào trong IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Mạng cá nhân không dây (WPAN)"
+      },
+      {
+        "id": "B",
+        "text": "Mạng cục bộ không dây (WLAN)"
+      },
+      {
+        "id": "C",
+        "text": "Mạng diện rộng công suất thấp (LPWAN)"
+      },
+      {
+        "id": "D",
+        "text": "Mạng di động (Cellular Network)"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Mạng cục bộ không dây (WLAN)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 7,
+    "clo": "CLO1.1",
+    "question": "Kiến trúc IoT cơ bản nhất gồm 3 lớp. Đâu KHÔNG PHẢI là một trong các lớp đó?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tầng Nhận thức (Perception Layer)"
+      },
+      {
+        "id": "B",
+        "text": "Tầng Mạng (Network Layer)"
+      },
+      {
+        "id": "C",
+        "text": "Tầng Ứng dụng (Application Layer)"
+      },
+      {
+        "id": "D",
+        "text": "Tầng Kinh doanh (Business Layer)"
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "Tầng Kinh doanh (Business Layer)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 8,
+    "clo": "CLO1.1",
+    "question": "IIoT là viết tắt của cụm từ gì và được ứng dụng chủ yếu trong lĩnh vực nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Intelligent IoT, ứng dụng trong nhà thông minh"
+      },
+      {
+        "id": "B",
+        "text": "Industrial IoT, ứng dụng trong sản xuất và công nghiệp"
+      },
+      {
+        "id": "C",
+        "text": "Internal IoT, ứng dụng trong mạng nội bộ"
+      },
+      {
+        "id": "D",
+        "text": "Integrated IoT, ứng dụng trong tích hợp hệ thống"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Industrial IoT, ứng dụng trong sản xuất và công nghiệp",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 9,
+    "clo": "CLO1.1",
+    "question": "Bảo trì dự đoán (Predictive Maintenance) trong công nghiệp có nghĩa là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bảo trì máy móc theo một lịch trình cố định hàng tháng"
+      },
+      {
+        "id": "B",
+        "text": "Sửa chữa máy móc ngay sau khi chúng bị hỏng"
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng dữ liệu để dự đoán thời điểm máy móc có khả năng hỏng và bảo trì trước"
+      },
+      {
+        "id": "D",
+        "text": "Nâng cấp toàn bộ máy móc sau một thời gian sử dụng"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Sử dụng dữ liệu để dự đoán thời điểm máy móc có khả năng hỏng và bảo trì trước",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 10,
+    "clo": "CLO1.1",
+    "question": "Đâu là hai ứng dụng tiêu biểu của IoT trong Thành phố Thông minh (Smart City)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Quản lý giao thông và chiếu sáng thông minh"
+      },
+      {
+        "id": "B",
+        "text": "Chăm sóc sức khỏe từ xa và nông nghiệp chính xác"
+      },
+      {
+        "id": "C",
+        "text": "Mua sắm trực tuyến và giải trí tại nhà"
+      },
+      {
+        "id": "D",
+        "text": "An ninh ngân hàng và quản lý tài chính"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Quản lý giao thông và chiếu sáng thông minh",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 11,
+    "clo": "CLO1.1",
+    "question": "IoMT là viết tắt của cụm từ gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Internet of Mobile Things"
+      },
+      {
+        "id": "B",
+        "text": "Internet of Medical Things"
+      },
+      {
+        "id": "C",
+        "text": "Internet of Machine Things"
+      },
+      {
+        "id": "D",
+        "text": "Internet of Major Things"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Internet of Medical Things",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 12,
+    "clo": "CLO1.1",
+    "question": "Vai trò chính của Cổng kết nối (Gateway) trong kiến trúc IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Là cảm biến chính của hệ thống"
+      },
+      {
+        "id": "B",
+        "text": "Là thiết bị hiển thị dữ liệu cho người dùng"
+      },
+      {
+        "id": "C",
+        "text": "Là cầu nối trung gian, tổng hợp dữ liệu từ cảm biến và gửi lên Internet"
+      },
+      {
+        "id": "D",
+        "text": "Là máy chủ lưu trữ toàn bộ dữ liệu"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Là cầu nối trung gian, tổng hợp dữ liệu từ cảm biến và gửi lên Internet",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 13,
+    "clo": "CLO1.1",
+    "question": "Điện toán đám mây (Cloud Computing) đóng vai trò gì trong hầu hết các hệ thống IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Là thiết bị kết nối vật lý"
+      },
+      {
+        "id": "B",
+        "text": "Là \"bộ não\" trung tâm để lưu trữ, xử lý và phân tích dữ liệu quy mô lớn"
+      },
+      {
+        "id": "C",
+        "text": "Là một giao thức truyền thông không dây"
+      },
+      {
+        "id": "D",
+        "text": "Là lớp phần cứng của hệ thống"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Là \"bộ não\" trung tâm để lưu trữ, xử lý và phân tích dữ liệu quy mô lớn",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 14,
+    "clo": "CLO1.1",
+    "question": "Một trong những rủi ro bảo mật phổ biến và nguy hiểm nhất của các thiết bị IoT giá rẻ là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tiêu thụ quá nhiều năng lượng"
+      },
+      {
+        "id": "B",
+        "text": "Tốc độ kết nối mạng chậm"
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng mật khẩu mặc định, dễ đoán và không thể thay đổi"
+      },
+      {
+        "id": "D",
+        "text": "Kích thước thiết bị quá lớn"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Sử dụng mật khẩu mặc định, dễ đoán và không thể thay đổi",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 15,
+    "clo": "CLO1.1",
+    "question": "\"Matter\" là gì trong lĩnh vực nhà thông minh?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Một loại cảm biến đo chất lượng không khí mới"
+      },
+      {
+        "id": "B",
+        "text": "Một nền tảng đám mây của Google"
+      },
+      {
+        "id": "C",
+        "text": "Một chuẩn giao thức kết nối chung được nhiều hãng công nghệ lớn hỗ trợ"
+      },
+      {
+        "id": "D",
+        "text": "Một thuật toán trí tuệ nhân tạo"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Một chuẩn giao thức kết nối chung được nhiều hãng công nghệ lớn hỗ trợ",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 16,
+    "clo": "CLO1.2",
+    "question": "Sự khác biệt cơ bản nhất giữa Điện toán Đám mây (Cloud) và Điện toán Biên (Edge) là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cloud luôn nhanh hơn Edge"
+      },
+      {
+        "id": "B",
+        "text": "Edge có khả năng lưu trữ lớn hơn Cloud"
+      },
+      {
+        "id": "C",
+        "text": "Cloud xử lý dữ liệu tập trung ở xa, Edge xử lý dữ liệu ngay tại nguồn"
+      },
+      {
+        "id": "D",
+        "text": "Cloud chỉ dùng cho doanh nghiệp, Edge chỉ dùng cho cá nhân"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Cloud xử lý dữ liệu tập trung ở xa, Edge xử lý dữ liệu ngay tại nguồn",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 17,
+    "clo": "CLO1.2",
+    "question": "Tại sao giao thức MQTT thường được ưa chuộng hơn HTTP trong các ứng dụng IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì HTTP kém bảo mật hơn MQTT"
+      },
+      {
+        "id": "B",
+        "text": "Vì MQTT nhẹ, hiệu quả về băng thông và được thiết kế cho mạng không ổn định"
+      },
+      {
+        "id": "C",
+        "text": "Vì HTTP chỉ hoạt động trên máy tính, không hoạt động trên thiết bị IoT"
+      },
+      {
+        "id": "D",
+        "text": "Vì MQTT có tốc độ truyền dữ liệu nhanh hơn hàng nghìn lần •"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì MQTT nhẹ, hiệu quả về băng thông và được thiết kế cho mạng không ổn định",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 18,
+    "clo": "CLO1.2",
+    "question": "Mối quan hệ cộng sinh giữa IoT, Dữ liệu lớn (Big Data) và Trí tuệ nhân tạo (AI) được mô tả đúng nhất là:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chúng là 3 công nghệ cạnh tranh lẫn nhau"
+      },
+      {
+        "id": "B",
+        "text": "AI tạo ra IoT, IoT tạo ra Big Data"
+      },
+      {
+        "id": "C",
+        "text": "IoT tạo ra Big Data, Big Data là \"nhiên liệu\" cho AI, và AI làm cho IoT thông minh hơn"
+      },
+      {
+        "id": "D",
+        "text": "Big Data chỉ là một tên gọi khác của dữ liệu do IoT tạo ra"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "IoT tạo ra Big Data, Big Data là \"nhiên liệu\" cho AI, và AI làm cho IoT thông minh hơn",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 19,
+    "clo": "CLO1.2",
+    "question": "So với kiến trúc 3 lớp, kiến trúc IoT 5 lớp bổ sung thêm hai lớp nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lớp Mạng và Lớp Ứng dụng"
+      },
+      {
+        "id": "B",
+        "text": "Lớp Xử lý (Middleware) và Lớp Kinh doanh"
+      },
+      {
+        "id": "C",
+        "text": "Lớp Bảo mật và Lớp Dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Lớp Phần cứng và Lớp Phần mềm"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Lớp Xử lý (Middleware) và Lớp Kinh doanh",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 20,
+    "clo": "CLO1.2",
+    "question": "IoT giúp thực hiện \"Canh tác chính xác\" (Precision Farming) bằng cách nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sử dụng các loại máy nông nghiệp có kích thước lớn hơn"
+      },
+      {
+        "id": "B",
+        "text": "Chỉ trồng một loại cây duy nhất trên một diện tích lớn"
+      },
+      {
+        "id": "C",
+        "text": "Dùng cảm biến để thu thập dữ liệu chi tiết, cho phép tưới tiêu và bón phân ở cấp độ vi mô"
+      },
+      {
+        "id": "D",
+        "text": "Canh tác hoàn toàn dựa trên kinh nghiệm truyền thống của người nông dân"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Dùng cảm biến để thu thập dữ liệu chi tiết, cho phép tưới tiêu và bón phân ở cấp độ vi mô",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 21,
+    "clo": "CLO1.2",
+    "question": "Tại sao \"khả năng tương tác\" (interoperability) lại là một thách thức lớn trong IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Do chi phí của các cảm biến còn quá cao"
+      },
+      {
+        "id": "B",
+        "text": "Do thiếu kết nối Internet ở nhiều khu vực"
+      },
+      {
+        "id": "C",
+        "text": "Do thị trường bị phân mảnh với nhiều hãng sử dụng các giao thức độc quyền, khiến thiết bị không \"nói chuyện\" được với nhau"
+      },
+      {
+        "id": "D",
+        "text": "Do giới hạn về năng lượng pin của các thiết bị"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Do thị trường bị phân mảnh với nhiều hãng sử dụng các giao thức độc quyền, khiến thiết bị không \"nói chuyện\" được với nhau",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 22,
+    "clo": "CLO1.2",
+    "question": "Vai trò quan trọng nhất của mạng 5G đối với tương lai của IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giúp giảm chi phí sản xuất thiết bị IoT"
+      },
+      {
+        "id": "B",
+        "text": "Giúp tăng thời lượng pin của thiết bị lên nhiều năm"
+      },
+      {
+        "id": "C",
+        "text": "Cung cấp độ trễ cực thấp và băng thông cao, mở đường cho các ứng dụng phức tạp như xe tự hành"
+      },
+      {
+        "id": "D",
+        "text": "Thay thế hoàn toàn công nghệ Wi-Fi trong nhà"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Cung cấp độ trễ cực thấp và băng thông cao, mở đường cho các ứng dụng phức tạp như xe tự hành",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 23,
+    "clo": "CLO1.2",
+    "question": "Một hệ thống quản lý chất thải thông minh trong thành phố hoạt động dựa trên nguyên tắc nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng gấp đôi số lượng thùng rác trên đường phố"
+      },
+      {
+        "id": "B",
+        "text": "Yêu cầu xe thu gom rác đi qua tất cả các tuyến đường mỗi ngày"
+      },
+      {
+        "id": "C",
+        "text": "Dùng cảm biến đo độ đầy của thùng rác để tạo ra tuyến đường thu gom tối ưu"
+      },
+      {
+        "id": "D",
+        "text": "Phân loại rác tự động ngay tại thùng rác công cộng"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Dùng cảm biến đo độ đầy của thùng rác để tạo ra tuyến đường thu gom tối ưu",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 24,
+    "clo": "CLO1.2",
+    "question": "Mối lo ngại lớn nhất về quyền riêng tư trong các ứng dụng nhà thông minh và y tế thông minh là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Các thiết bị tiêu thụ quá nhiều điện năng"
+      },
+      {
+        "id": "B",
+        "text": "Tín hiệu Wi-Fi trong nhà bị yếu đi"
+      },
+      {
+        "id": "C",
+        "text": "Việc thu thập một lượng lớn dữ liệu cá nhân cực kỳ nhạy cảm về thói quen và sức khỏe"
+      },
+      {
+        "id": "D",
+        "text": "Các ứng dụng điều khiển quá khó để cài đặt và sử dụng"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Việc thu thập một lượng lớn dữ liệu cá nhân cực kỳ nhạy cảm về thói quen và sức khỏe",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 25,
+    "clo": "CLO1.2",
+    "question": "\"Bảo mật ngay từ khâu thiết kế\" (security-by-design) trong IoT có nghĩa là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cài đặt một phần mềm diệt virus tốt sau khi thiết bị được sản xuất"
+      },
+      {
+        "id": "B",
+        "text": "Tích hợp các yếu tố bảo mật vào sản phẩm ngay từ giai đoạn đầu của quá trình thiết kế"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ tập trung vào việc mã hóa dữ liệu khi nó được lưu trữ trên đám mây"
+      },
+      {
+        "id": "D",
+        "text": "Yêu cầu người dùng cuối phải tự đặt một mật khẩu thật phức tạp"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tích hợp các yếu tố bảo mật vào sản phẩm ngay từ giai đoạn đầu của quá trình thiết kế",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 26,
+    "clo": "CLO1.2",
+    "question": "Đâu là đặc điểm của giao thức mạng lưới (mesh network) như Zigbee?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Mỗi thiết bị chỉ có thể kết nối trực tiếp với gateway trung tâm"
+      },
+      {
+        "id": "B",
+        "text": "Các thiết bị có thể giao tiếp với nhau để mở rộng phạm vi phủ sóng của mạng"
+      },
+      {
+        "id": "C",
+        "text": "Yêu cầu công suất phát sóng rất cao"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ hoạt động trong phạm vi dưới 1 mét"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Các thiết bị có thể giao tiếp với nhau để mở rộng phạm vi phủ sóng của mạng",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 27,
+    "clo": "CLO1.2",
+    "question": "Lợi tức đầu tư (ROI) của việc triển khai IIoT trong nhà máy sản xuất KHÔNG đến từ yếu tố nào sau đây?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giảm thời gian ngừng hoạt động của máy móc"
+      },
+      {
+        "id": "B",
+        "text": "Tăng chi phí nhân công vận hành"
+      },
+      {
+        "id": "C",
+        "text": "Giảm tỷ lệ sản phẩm lỗi"
+      },
+      {
+        "id": "D",
+        "text": "Tiết kiệm chi phí năng lượng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tăng chi phí nhân công vận hành",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 28,
+    "clo": "CLO1.2",
+    "question": "\"Internet of Bodies\" (IoB) là một nhánh của IoMT, bao gồm các thiết bị nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ bao gồm các thiết bị đeo tay như đồng hồ thông minh"
+      },
+      {
+        "id": "B",
+        "text": "Các thiết bị có thể đeo, cấy ghép vào cơ thể hoặc nuốt được"
+      },
+      {
+        "id": "C",
+        "text": "Các robot y tế trong phòng phẫu thuật"
+      },
+      {
+        "id": "D",
+        "text": "Các máy chủ lưu trữ hồ sơ bệnh án điện tử"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Các thiết bị có thể đeo, cấy ghép vào cơ thể hoặc nuốt được",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 29,
+    "clo": "CLO1.2",
+    "question": "Tại sao IPv6 lại quan trọng cho sự phát triển của IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó có tốc độ nhanh hơn IPv4"
+      },
+      {
+        "id": "B",
+        "text": "Vì nó cung cấp một không gian địa chỉ gần như vô hạn cho hàng tỷ thiết bị"
+      },
+      {
+        "id": "C",
+        "text": "Vì nó bảo mật hơn IPv4 một cách tuyệt đối"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó tiêu thụ ít năng lượng hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì nó cung cấp một không gian địa chỉ gần như vô hạn cho hàng tỷ thiết bị",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 30,
+    "clo": "CLO1.2",
+    "question": "Công nghệ Blockchain có thể giúp giải quyết vấn đề nào của IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng tốc độ xử lý dữ liệu"
+      },
+      {
+        "id": "B",
+        "text": "Giảm chi phí sản xuất cảm biến"
+      },
+      {
+        "id": "C",
+        "text": "Tăng cường bảo mật, tin cậy và minh bạch cho các giao dịch dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Tăng thời lượng pin cho thiết bị"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Tăng cường bảo mật, tin cậy và minh bạch cho các giao dịch dữ liệu",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 31,
+    "clo": "CLO1.2",
+    "question": "Trong các hệ thống công nghiệp thời gian thực như robot, giao thức nào thường được ưu tiên hơn MQTT do kiến trúc phi tập trung và độ trễ thấp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "HTTP"
+      },
+      {
+        "id": "B",
+        "text": "CoAP"
+      },
+      {
+        "id": "C",
+        "text": "DDS"
+      },
+      {
+        "id": "D",
+        "text": "AMQP"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "DDS",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 32,
+    "clo": "CLO1.2",
+    "question": "Một \"cặp song sinh kỹ thuật số\" (Digital Twin) trong bối cảnh IIoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Hai cỗ máy vật lý giống hệt nhau hoạt động song song"
+      },
+      {
+        "id": "B",
+        "text": "Một bản sao kỹ thuật số, ảo của một tài sản hoặc quy trình vật lý, được cập nhật dữ liệu thời gian thực"
+      },
+      {
+        "id": "C",
+        "text": "Một phần mềm mô phỏng hoạt động của nhà máy nhưng không có dữ liệu thực"
+      },
+      {
+        "id": "D",
+        "text": "Một kỹ thuật sao lưu dữ liệu từ các cảm biến"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Một bản sao kỹ thuật số, ảo của một tài sản hoặc quy trình vật lý, được cập nhật dữ liệu thời gian thực",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 33,
+    "clo": "CLO1.2",
+    "question": "Thị giác máy tính (Computer Vision) được ứng dụng trong IIoT để làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ để ghi lại video an ninh trong nhà máy"
+      },
+      {
+        "id": "B",
+        "text": "Để tự động kiểm tra chất lượng sản phẩm và giám sát an toàn lao động"
+      },
+      {
+        "id": "C",
+        "text": "Để tối ưu hóa giao diện người dùng trên màn hình điều khiển"
+      },
+      {
+        "id": "D",
+        "text": "Để giảm độ sáng của đèn trong nhà máy"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Để tự động kiểm tra chất lượng sản phẩm và giám sát an toàn lao động",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 34,
+    "clo": "CLO1.2",
+    "question": "Đâu là thách thức lớn khi tích hợp IoT với các hệ thống cũ (Legacy Systems) trong nhà máy?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Các hệ thống cũ quá nhanh và mạnh"
+      },
+      {
+        "id": "B",
+        "text": "Các hệ thống cũ không được thiết kế để kết nối mạng và chia sẻ dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Các hệ thống cũ quá bảo mật"
+      },
+      {
+        "id": "D",
+        "text": "Các hệ thống cũ tiêu thụ quá ít năng lượng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Các hệ thống cũ không được thiết kế để kết nối mạng và chia sẻ dữ liệu",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 35,
+    "clo": "CLO1.2",
+    "question": "3V của Dữ liệu lớn (Big Data) do IoT tạo ra là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vision, Voice, Video (Thị giác, Giọng nói, Video)"
+      },
+      {
+        "id": "B",
+        "text": "Volume, Velocity, Variety (Khối lượng, Tốc độ, Đa dạng)"
+      },
+      {
+        "id": "C",
+        "text": "Value, Veracity, Validity (Giá trị, Tin cậy, Hợp lệ)"
+      },
+      {
+        "id": "D",
+        "text": "Virtual, Volatile, Verified (Ảo, Biến đổi, Đã xác minh)"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Volume, Velocity, Variety (Khối lượng, Tốc độ, Đa dạng)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 36,
+    "clo": "CLO1.3",
+    "question": "Ngoài lợi ích về kinh tế và tiện nghi, tác động tiêu cực tiềm tàng nào của IoT trên quy mô lớn cần được xã hội quan tâm nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng chi phí hóa đơn tiền điện"
+      },
+      {
+        "id": "B",
+        "text": "Các thiết bị điện tử nhanh bị lỗi thời"
+      },
+      {
+        "id": "C",
+        "text": "Nguy cơ mất việc làm hàng loạt, gia tăng khoảng cách số và các vấn đề về quyền riêng tư, giám sát"
+      },
+      {
+        "id": "D",
+        "text": "Gây ra tình trạng nhiễu sóng Wi-Fi và di động"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Nguy cơ mất việc làm hàng loạt, gia tăng khoảng cách số và các vấn đề về quyền riêng tư, giám sát",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 37,
+    "clo": "CLO1.3",
+    "question": "Theo bạn, giữa \"An ninh mạng\" và \"Tiêu chuẩn hóa\", yếu tố nào là rào cản CƠ BẢN HƠN đối với việc người tiêu dùng đại chúng chấp nhận IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "An ninh mạng, vì nó ảnh hưởng trực tiếp đến sự an toàn và lòng tin của người dùng."
+      },
+      {
+        "id": "B",
+        "text": "Tiêu chuẩn hóa, vì nó ảnh hưởng đến sự tiện lợi và chi phí khi sử dụng."
+      },
+      {
+        "id": "C",
+        "text": "Cả hai đều quan trọng như nhau và không thể tách rời."
+      },
+      {
+        "id": "D",
+        "text": "Không yếu tố nào, rào cản chính là giá thành thiết bị còn cao."
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "An ninh mạng, vì nó ảnh hưởng trực tiếp đến sự an toàn và lòng tin của người dùng.",
+    "confidence": 0.75,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 38,
+    "clo": "CLO1.3",
+    "question": "Trong một hệ thống tưới tiêu thông minh cho một trang trại ở vùng sâu vùng xa, công nghệ kết nối nào giữa cảm biến và gateway là phù hợp nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Wi-Fi"
+      },
+      {
+        "id": "B",
+        "text": "Bluetooth"
+      },
+      {
+        "id": "C",
+        "text": "LoRaWAN"
+      },
+      {
+        "id": "D",
+        "text": "5G"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "LoRaWAN",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 39,
+    "clo": "CLO1.3",
+    "question": "Về mặt đạo đức, ai nên được coi là chủ sở hữu chính của dữ liệu sức khỏe do thiết bị IoMT thu thập?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bệnh viện hoặc bác sĩ điều trị"
+      },
+      {
+        "id": "B",
+        "text": "Công ty sản xuất thiết bị IoMT"
+      },
+      {
+        "id": "C",
+        "text": "Công ty bảo hiểm sức khỏe"
+      },
+      {
+        "id": "D",
+        "text": "Chính bệnh nhân"
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "Chính bệnh nhân",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 40,
+    "clo": "CLO1.3",
+    "question": "\"Điện toán biên sẽ thay thế hoàn toàn điện toán đám mây trong tương lai của IoT\". Nhận định này đúng hay sai?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Đúng, vì Điện toán biên nhanh và bảo mật hơn."
+      },
+      {
+        "id": "B",
+        "text": "Sai, vì chúng là hai thành phần bổ sung cho nhau trong một kiến trúc lai."
+      },
+      {
+        "id": "C",
+        "text": "Đúng, vì chi phí cho Điện toán biên rẻ hơn rất nhiều."
+      },
+      {
+        "id": "D",
+        "text": "Sai, vì Điện toán đám mây có thể xử lý mọi tác vụ mà không cần Điện toán biên."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sai, vì chúng là hai thành phần bổ sung cho nhau trong một kiến trúc lai.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 41,
+    "clo": "CLO1.3",
+    "question": "Vai trò quan trọng nhất của chính phủ trong việc thúc đẩy sự phát triển IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tự sản xuất và bán tất cả các thiết bị IoT"
+      },
+      {
+        "id": "B",
+        "text": "Xây dựng khung pháp lý và tiêu chuẩn về an ninh mạng, quyền riêng tư, đồng thời đầu tư vào hạ tầng số"
+      },
+      {
+        "id": "C",
+        "text": "Cung cấp kết nối Internet miễn phí cho tất cả mọi người"
+      },
+      {
+        "id": "D",
+        "text": "Cấm nhập khẩu các thiết bị IoT từ nước ngoài"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Xây dựng khung pháp lý và tiêu chuẩn về an ninh mạng, quyền riêng tư, đồng thời đầu tư vào hạ tầng số",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 42,
+    "clo": "CLO1.3",
+    "question": "Nếu là CTO của một công ty logistics, sáng kiến IoT nào sau đây sẽ mang lại hiệu quả tức thời và rõ rệt nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lắp đặt máy pha cà phê thông minh trong văn phòng"
+      },
+      {
+        "id": "B",
+        "text": "Trang bị đồng hồ thông minh cho tất cả nhân viên"
+      },
+      {
+        "id": "C",
+        "text": "Gắn thiết bị theo dõi GPS và cảm biến lên các xe tải và container"
+      },
+      {
+        "id": "D",
+        "text": "Xây dựng một ứng dụng mạng xã hội nội bộ"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Gắn thiết bị theo dõi GPS và cảm biến lên các xe tải và container",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 43,
+    "clo": "CLO1.3",
+    "question": "Phản biện nào là hợp lý nhất cho nhận định: \"IoT sẽ tạo ra nhiều dữ liệu rác hơn là dữ liệu hữu ích\"?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nhận định này hoàn toàn đúng, không thể phản biện."
+      },
+      {
+        "id": "B",
+        "text": "Giá trị của IoT không nằm ở dữ liệu thô, mà ở thông tin chi tiết được chắt lọc từ nó thông qua AI và phân tích dữ liệu."
+      },
+      {
+        "id": "C",
+        "text": "Dữ liệu rác có thể được bán để kiếm thêm lợi nhuận."
+      },
+      {
+        "id": "D",
+        "text": "Tất cả dữ liệu do cảm biến tạo ra đều hữu ích."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Giá trị của IoT không nằm ở dữ liệu thô, mà ở thông tin chi tiết được chắt lọc từ nó thông qua AI và phân tích dữ liệu.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 44,
+    "clo": "CLO1.3",
+    "question": "Sự cân bằng giữa tiện nghi và quyền riêng tư trong nhà thông minh được mô tả chính xác nhất là:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Không có sự đánh đổi nào, chúng ta có thể có cả hai một cách tuyệt đối."
+      },
+      {
+        "id": "B",
+        "text": "Đây là một sự đánh đổi có thật, đòi hỏi sự minh bạch từ nhà sản xuất và sự lựa chọn có ý thức từ người dùng."
+      },
+      {
+        "id": "C",
+        "text": "Quyền riêng tư không quan trọng bằng sự tiện nghi."
+      },
+      {
+        "id": "D",
+        "text": "Sự tiện nghi chỉ là ảo, không có thật."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Đây là một sự đánh đổi có thật, đòi hỏi sự minh bạch từ nhà sản xuất và sự lựa chọn có ý thức từ người dùng.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 45,
+    "clo": "CLO1.3",
+    "question": "Tác động tiêu cực tiềm tàng của IoT đối với môi trường là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Gây ra ô nhiễm tiếng ồn"
+      },
+      {
+        "id": "B",
+        "text": "Tạo ra một lượng lớn rác thải điện tử (e-waste) và tiêu thụ nhiều năng lượng ở các trung tâm dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Làm giảm đa dạng sinh học"
+      },
+      {
+        "id": "D",
+        "text": "Gây ra hiệu ứng nhà kính trực tiếp"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tạo ra một lượng lớn rác thải điện tử (e-waste) và tiêu thụ nhiều năng lượng ở các trung tâm dữ liệu",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 46,
+    "clo": "CLO1.3",
+    "question": "Rủi ro lớn nhất khi một quốc gia phụ thuộc vào các nền tảng và thiết bị IoT của nước ngoài trong các lĩnh vực quan trọng là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giá thiết bị có thể tăng cao"
+      },
+      {
+        "id": "B",
+        "text": "Rủi ro về an ninh quốc gia, gián điệp và bị phụ thuộc về công nghệ"
+      },
+      {
+        "id": "C",
+        "text": "Hướng dẫn sử dụng không có tiếng bản địa"
+      },
+      {
+        "id": "D",
+        "text": "Thời gian bảo hành ngắn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Rủi ro về an ninh quốc gia, gián điệp và bị phụ thuộc về công nghệ",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 47,
+    "clo": "CLO1.3",
+    "question": "Để cải thiện an toàn cho công nhân xây dựng, giải pháp IoT nào sau đây là hiệu quả nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lắp camera giám sát toàn bộ công trường"
+      },
+      {
+        "id": "B",
+        "text": "Trang bị cho mỗi công nhân mũ bảo hiểm và thiết bị đeo thông minh có khả năng phát hiện ngã và gửi cảnh báo SOS"
+      },
+      {
+        "id": "C",
+        "text": "Phát cho mỗi công nhân một chiếc điện thoại thông minh"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng drone để giao vật liệu xây dựng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Trang bị cho mỗi công nhân mũ bảo hiểm và thiết bị đeo thông minh có khả năng phát hiện ngã và gửi cảnh báo SOS",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 48,
+    "clo": "CLO1.3",
+    "question": "Điều gì mô tả đúng nhất về tương lai của các hệ sinh thái nhà thông minh?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sẽ chỉ có một công ty duy nhất thống trị toàn bộ thị trường."
+      },
+      {
+        "id": "B",
+        "text": "Sẽ có một chuẩn mở chung (như Matter) làm nền tảng, nhưng các hãng lớn vẫn cạnh tranh bằng các dịch vụ giá trị gia tăng."
+      },
+      {
+        "id": "C",
+        "text": "Thị trường sẽ ngày càng phân mảnh hơn với hàng trăm giao thức không tương thích."
+      },
+      {
+        "id": "D",
+        "text": "Công nghệ nhà thông minh sẽ không phát triển thêm."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sẽ có một chuẩn mở chung (như Matter) làm nền tảng, nhưng các hãng lớn vẫn cạnh tranh bằng các dịch vụ giá trị gia tăng.",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 49,
+    "clo": "CLO1.3",
+    "question": "Thách thức lớn nhất trong việc hiện thực hóa một thế giới IoT thông minh toàn diện được cho là:",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Công nghệ (tốc độ mạng, sức mạnh xử lý)"
+      },
+      {
+        "id": "B",
+        "text": "Con người và xã hội (lòng tin, pháp lý, chấp nhận sự thay đổi)"
+      },
+      {
+        "id": "C",
+        "text": "Chi phí sản xuất cảm biến"
+      },
+      {
+        "id": "D",
+        "text": "Nguồn cung năng lượng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Con người và xã hội (lòng tin, pháp lý, chấp nhận sự thay đổi)",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 50,
+    "clo": "CLO1.3",
+    "question": "Ứng dụng IoT nào sau đây có tiềm năng tạo ra sự đột phá lớn nhất cho sức khỏe con người trong tương lai?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Máy đếm bước chân thông minh"
+      },
+      {
+        "id": "B",
+        "text": "Cân điện tử kết nối Wi-Fi"
+      },
+      {
+        "id": "C",
+        "text": "Hệ thống giám sát sức khỏe liên tục bằng cảm biến sinh học, kết hợp AI để phòng bệnh cá nhân hóa"
+      },
+      {
+        "id": "D",
+        "text": "Hộp đựng thuốc thông minh nhắc uống thuốc"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Hệ thống giám sát sức khỏe liên tục bằng cảm biến sinh học, kết hợp AI để phòng bệnh cá nhân hóa",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 51,
+    "clo": "CLO2.1",
+    "question": "Kiến trúc IoT 3 lớp cơ bản bao gồm những lớp nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lớp Vật lý (Thiết bị), Lớp Mạng và Lớp Ứng dụng."
+      },
+      {
+        "id": "B",
+        "text": "Lớp Thiết bị, Lớp Xử lý Dữ liệu và Lớp Kinh doanh."
+      },
+      {
+        "id": "C",
+        "text": "Lớp Mạng, Lớp Middleware và Lớp Ứng dụng."
+      },
+      {
+        "id": "D",
+        "text": "Lớp Cảm biến, Lớp Gateway và Lớp Đám mây."
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Lớp Vật lý (Thiết bị), Lớp Mạng và Lớp Ứng dụng.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 52,
+    "clo": "CLO2.1",
+    "question": "Chức năng chính của Lớp Nhận thức/Thiết bị là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ phân tích dữ liệu nhận được từ đám mây."
+      },
+      {
+        "id": "B",
+        "text": "Thu thập dữ liệu từ môi trường vật lý và thực hiện các hành động vật lý."
+      },
+      {
+        "id": "C",
+        "text": "Chỉ truyền dữ liệu lên mạng Internet."
+      },
+      {
+        "id": "D",
+        "text": "Quản lý các quy trình kinh doanh của hệ thống."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thu thập dữ liệu từ môi trường vật lý và thực hiện các hành động vật lý.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 53,
+    "clo": "CLO2.1",
+    "question": "Hai công nghệ mạng tầm ngắn (WPAN) nào sau đây phổ biến nhất trong lĩnh vực nhà thông minh?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4G và 5G."
+      },
+      {
+        "id": "B",
+        "text": "LoRaWAN và NB-IoT."
+      },
+      {
+        "id": "C",
+        "text": "Zigbee và Z-Wave."
+      },
+      {
+        "id": "D",
+        "text": "Wi-Fi và Ethernet."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Zigbee và Z-Wave.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 54,
+    "clo": "CLO2.1",
+    "question": "LPWAN là viết tắt của cụm từ gì và nó được thiết kế để giải quyết vấn đề gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Local Power Wide Area Network - Kết nối tầm gần, công suất cao."
+      },
+      {
+        "id": "B",
+        "text": "Low Power Wide Area Network - Kết nối tầm xa, công suất thấp, pin lâu dài."
+      },
+      {
+        "id": "C",
+        "text": "Long Protocol Wide Area Network - Giao thức phức tạp cho mạng diện rộng."
+      },
+      {
+        "id": "D",
+        "text": "Low Protocol Wide Area Network - Giao thức đơn giản cho mạng diện rộng."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Low Power Wide Area Network - Kết nối tầm xa, công suất thấp, pin lâu dài.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 55,
+    "clo": "CLO2.1",
+    "question": "Giao thức MQTT hoạt động theo mô hình nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Client-Server (Yêu cầu/Phản hồi)."
+      },
+      {
+        "id": "B",
+        "text": "Peer-to-Peer (Ngang hàng)."
+      },
+      {
+        "id": "C",
+        "text": "Publish/Subscribe (Xuất bản/Đăng ký)."
+      },
+      {
+        "id": "D",
+        "text": "Master-Slave (Chủ/Tớ)."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Publish/Subscribe (Xuất bản/Đăng ký).",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 56,
+    "clo": "CLO2.1",
+    "question": "Thành phần trung tâm trong mô hình của MQTT, có nhiệm vụ nhận và phân phối tin nhắn, được gọi là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Client (Máy khách)."
+      },
+      {
+        "id": "B",
+        "text": "Publisher (Người xuất bản)."
+      },
+      {
+        "id": "C",
+        "text": "Subscriber (Người đăng ký)."
+      },
+      {
+        "id": "D",
+        "text": "Broker (Trình truyền tải)."
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "Broker (Trình truyền tải).",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 57,
+    "clo": "CLO2.1",
+    "question": "CoAP được coi là phiên bản \"nhẹ\" của giao thức nào sau đây?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "FTP."
+      },
+      {
+        "id": "B",
+        "text": "HTTP."
+      },
+      {
+        "id": "C",
+        "text": "TCP."
+      },
+      {
+        "id": "D",
+        "text": "AMQP."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "HTTP.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 58,
+    "clo": "CLO2.1",
+    "question": "Vai trò quan trọng nhất của điện toán đám mây trong hệ sinh thái IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cung cấp kết nối Internet cho các thiết bị."
+      },
+      {
+        "id": "B",
+        "text": "Sản xuất các thiết bị cảm biến."
+      },
+      {
+        "id": "C",
+        "text": "Cung cấp khả năng lưu trữ, xử lý dữ liệu quy mô lớn và các dịch vụ phân tích nâng cao."
+      },
+      {
+        "id": "D",
+        "text": "Thiết kế giao diện người dùng cho ứng dụng di động."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Cung cấp khả năng lưu trữ, xử lý dữ liệu quy mô lớn và các dịch vụ phân tích nâng cao.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 59,
+    "clo": "CLO2.1",
+    "question": "Đâu là hai nhà cung cấp nền tảng đám mây IoT hàng đầu thế giới?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Facebook và Google."
+      },
+      {
+        "id": "B",
+        "text": "Apple và Samsung."
+      },
+      {
+        "id": "C",
+        "text": "Amazon Web Services (AWS) và Microsoft Azure."
+      },
+      {
+        "id": "D",
+        "text": "VNPT và Viettel."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Amazon Web Services (AWS) và Microsoft Azure.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 60,
+    "clo": "CLO2.1",
+    "question": "Thiết bị nào sau đây là một ví dụ về Thiết bị chấp hành (Actuator)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cảm biến nhiệt độ."
+      },
+      {
+        "id": "B",
+        "text": "Camera an ninh."
+      },
+      {
+        "id": "C",
+        "text": "Van nước thông minh có thể đóng/mở từ xa."
+      },
+      {
+        "id": "D",
+        "text": "Micro thu âm."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Van nước thông minh có thể đóng/mở từ xa.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 61,
+    "clo": "CLO2.1",
+    "question": "Trong kiến trúc 5 lớp, lớp nào chịu trách nhiệm tích hợp dữ liệu IoT vào các quy trình vận hành và chiến lược của doanh nghiệp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lớp Ứng dụng."
+      },
+      {
+        "id": "B",
+        "text": "Lớp Xử lý."
+      },
+      {
+        "id": "C",
+        "text": "Lớp Mạng."
+      },
+      {
+        "id": "D",
+        "text": "Lớp Kinh doanh."
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "Lớp Kinh doanh.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 62,
+    "clo": "CLO2.1",
+    "question": "Wi-Fi HaLow (IEEE 802.11ah) hoạt động ở băng tần nào để có tầm phủ sóng xa hơn Wi-Fi truyền thống?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Băng tần 2.4 GHz."
+      },
+      {
+        "id": "B",
+        "text": "Băng tần 5 GHz."
+      },
+      {
+        "id": "C",
+        "text": "Băng tần sub-1GHz."
+      },
+      {
+        "id": "D",
+        "text": "Băng tần 6 GHz."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Băng tần sub-1GHz.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 63,
+    "clo": "CLO2.1",
+    "question": "NB-IoT và LTE-M hoạt động trên loại băng tần nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Băng tần không cần cấp phép (ISM)."
+      },
+      {
+        "id": "B",
+        "text": "Băng tần được cấp phép của mạng di động."
+      },
+      {
+        "id": "C",
+        "text": "Băng tần dành riêng cho quân sự."
+      },
+      {
+        "id": "D",
+        "text": "Băng tần radio AM/FM."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Băng tần được cấp phép của mạng di động.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 64,
+    "clo": "CLO2.1",
+    "question": "Giao thức 6LoWPAN được tạo ra để giải quyết vấn đề gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng tốc độ truyền dữ liệu cho mạng Wi-Fi."
+      },
+      {
+        "id": "B",
+        "text": "Cho phép các thiết bị công suất thấp, tài nguyên hạn chế có thể giao tiếp bằng IPv6."
+      },
+      {
+        "id": "C",
+        "text": "Mã hóa dữ liệu cho các giao dịch tài chính."
+      },
+      {
+        "id": "D",
+        "text": "Thay thế hoàn toàn giao thức Bluetooth."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Cho phép các thiết bị công suất thấp, tài nguyên hạn chế có thể giao tiếp bằng IPv6.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 65,
+    "clo": "CLO2.1",
+    "question": "Kỹ thuật chính mà 6LoWPAN sử dụng để truyền các gói tin IPv6 lớn qua các mạng bị hạn chế là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ tăng công suất phát của thiết bị."
+      },
+      {
+        "id": "B",
+        "text": "Nén Header và Phân mảnh gói tin."
+      },
+      {
+        "id": "C",
+        "text": "Gửi dữ liệu qua nhiều kênh cùng lúc."
+      },
+      {
+        "id": "D",
+        "text": "Yêu cầu thiết bị phải có bộ nhớ lớn hơn."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Nén Header và Phân mảnh gói tin.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 66,
+    "clo": "CLO2.1",
+    "question": "Giao thức nào sau đây hoạt động theo mô hình peer-to-peer (ngang hàng) và không cần broker trung tâm?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "MQTT."
+      },
+      {
+        "id": "B",
+        "text": "AMQP."
+      },
+      {
+        "id": "C",
+        "text": "DDS."
+      },
+      {
+        "id": "D",
+        "text": "HTTP."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "DDS.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 67,
+    "clo": "CLO2.1",
+    "question": "Dịch vụ nào của AWS cho phép chạy các hàm tính toán và suy luận học máy cục bộ trên các thiết bị biên?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AWS IoT Core."
+      },
+      {
+        "id": "B",
+        "text": "AWS S3."
+      },
+      {
+        "id": "C",
+        "text": "AWS EC2."
+      },
+      {
+        "id": "D",
+        "text": "AWS IoT Greengrass."
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "AWS IoT Greengrass.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 68,
+    "clo": "CLO2.1",
+    "question": "Đâu là thách thức được quan tâm hàng đầu khi triển khai các hệ thống IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tốc độ xử lý của thiết bị."
+      },
+      {
+        "id": "B",
+        "text": "Bảo mật."
+      },
+      {
+        "id": "C",
+        "text": "Thiết kế giao diện người dùng."
+      },
+      {
+        "id": "D",
+        "text": "Chi phí lưu trữ dữ liệu."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Bảo mật.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 69,
+    "clo": "CLO2.1",
+    "question": "Xu hướng nào sau đây cho phép tạo ra một mô hình số của một đối tượng vật lý, được cập nhật liên tục bằng dữ liệu từ cảm biến IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Điện toán Lượng tử."
+      },
+      {
+        "id": "B",
+        "text": "Bản sao số (Digital Twins)."
+      },
+      {
+        "id": "C",
+        "text": "Chuỗi khối (Blockchain)."
+      },
+      {
+        "id": "D",
+        "text": "Thực tế ảo (Virtual Reality)."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Bản sao số (Digital Twins).",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 70,
+    "clo": "CLO2.2",
+    "question": "Mô hình kiến trúc 3 lớp phù hợp nhất cho trường hợp nào sau đây?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Hệ thống xe tự lái yêu cầu xử lý dữ liệu tức thì."
+      },
+      {
+        "id": "B",
+        "text": "Một nhà máy thông minh với hàng nghìn cảm biến cần phản ứng nhanh."
+      },
+      {
+        "id": "C",
+        "text": "Một dự án giám sát nhiệt độ trong một phòng đơn lẻ, không yêu cầu phân tích phức tạp."
+      },
+      {
+        "id": "D",
+        "text": "Một giải pháp quản lý chuỗi cung ứng toàn cầu tích hợp với hệ thống ERP."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Một dự án giám sát nhiệt độ trong một phòng đơn lẻ, không yêu cầu phân tích phức tạp.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 71,
+    "clo": "CLO2.2",
+    "question": "Trong Lớp Xử lý, vai trò của Điện toán Biên (Edge Computing) khác với Điện toán Đám mây (Cloud Computing) như thế nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Điện toán Biên xử lý phân tích phức tạp, còn Đám mây chỉ lưu trữ dữ liệu thô."
+      },
+      {
+        "id": "B",
+        "text": "Điện toán Biên thực hiện xử lý sơ bộ, lọc dữ liệu và phản ứng nhanh; còn Đám mây thực hiện phân tích sâu và lưu trữ dài hạn."
+      },
+      {
+        "id": "C",
+        "text": "Cả hai đều có vai trò giống hệt nhau, chỉ khác về vị trí đặt máy chủ."
+      },
+      {
+        "id": "D",
+        "text": "Điện toán Biên chỉ dùng cho thiết bị di động, còn Đám mây dùng cho máy tính."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Điện toán Biên thực hiện xử lý sơ bộ, lọc dữ liệu và phản ứng nhanh; còn Đám mây thực hiện phân tích sâu và lưu trữ dài hạn.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 72,
+    "clo": "CLO2.2",
+    "question": "Điểm khác biệt cơ bản về mặt kỹ thuật giữa Zigbee và Z-Wave là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Zigbee nhanh hơn và dùng băng tần 2.4 GHz, trong khi Z-Wave chậm hơn nhưng dùng băng tần sub-1GHz ít nhiễu hơn."
+      },
+      {
+        "id": "B",
+        "text": "Z-Wave nhanh hơn và hỗ trợ mạng lưới lớn hơn Zigbee."
+      },
+      {
+        "id": "C",
+        "text": "Zigbee là công nghệ độc quyền, còn Z-Wave là tiêu chuẩn mở."
+      },
+      {
+        "id": "D",
+        "text": "Cả hai đều dùng chung băng tần 5 GHz và có tốc độ tương đương."
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Zigbee nhanh hơn và dùng băng tần 2.4 GHz, trong khi Z-Wave chậm hơn nhưng dùng băng tần sub-1GHz ít nhiễu hơn.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 73,
+    "clo": "CLO2.2",
+    "question": "So sánh LoRaWAN và NB-IoT, lựa chọn nào cho phép một tổ chức tự xây dựng và quản lý mạng riêng mà không phải trả phí thuê bao?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NB-IoT."
+      },
+      {
+        "id": "B",
+        "text": "Cả hai đều cho phép."
+      },
+      {
+        "id": "C",
+        "text": "LoRaWAN."
+      },
+      {
+        "id": "D",
+        "text": "Cả hai đều không cho phép, phải phụ thuộc vào nhà mạng."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "LoRaWAN.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 74,
+    "clo": "CLO2.2",
+    "question": "Tại sao Wi-Fi HaLow được coi là công nghệ \"lai\" giữa WPAN và LPWAN?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó chỉ hoạt động ở tầm ngắn nhưng tiêu thụ năng lượng rất cao."
+      },
+      {
+        "id": "B",
+        "text": "Vì nó có tầm phủ sóng xa và tiêu thụ năng lượng thấp (giống LPWAN) nhưng vẫn duy trì tốc độ dữ liệu tương đối cao (giống WPAN)."
+      },
+      {
+        "id": "C",
+        "text": "Vì nó chỉ có thể kết nối với các thiết bị LPWAN khác."
+      },
+      {
+        "id": "D",
+        "text": "Vì nó yêu cầu cả kết nối Wi-Fi và LoRa để hoạt động."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì nó có tầm phủ sóng xa và tiêu thụ năng lượng thấp (giống LPWAN) nhưng vẫn duy trì tốc độ dữ liệu tương đối cao (giống WPAN).",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 75,
+    "clo": "CLO2.2",
+    "question": "Mô hình \"publish/subscribe\" của MQTT giúp ích gì cho các thiết bị IoT có kết nối mạng không ổn định?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nó buộc các thiết bị phải kết nối trực tiếp với nhau, tăng độ tin cậy."
+      },
+      {
+        "id": "B",
+        "text": "Nó tách rời bên gửi và bên nhận, cho phép broker lưu và chuyển tiếp tin nhắn khi thiết bị kết nối lại."
+      },
+      {
+        "id": "C",
+        "text": "Nó làm giảm kích thước tin nhắn xuống còn 0 byte để không cần mạng."
+      },
+      {
+        "id": "D",
+        "text": "Nó chỉ hoạt động trên các mạng có dây ổn định."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Nó tách rời bên gửi và bên nhận, cho phép broker lưu và chuyển tiếp tin nhắn khi thiết bị kết nối lại.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 76,
+    "clo": "CLO2.2",
+    "question": "Trong trường hợp nào thì CoAP là lựa chọn tốt hơn MQTT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Khi cần gửi dữ liệu từ một cảm biến đến nhiều người nhận khác nhau."
+      },
+      {
+        "id": "B",
+        "text": "Khi cần một hệ thống nhắn tin tin cậy cho ngành tài chính."
+      },
+      {
+        "id": "C",
+        "text": "Khi cần truy vấn trạng thái hoặc điều khiển trực tiếp một thiết bị cụ thể theo mô hình yêu cầu/phản hồi."
+      },
+      {
+        "id": "D",
+        "text": "Khi cần giao tiếp ngang hàng giữa các robot công nghiệp."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Khi cần truy vấn trạng thái hoặc điều khiển trực tiếp một thiết bị cụ thể theo mô hình yêu cầu/phản hồi.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 77,
+    "clo": "CLO2.2",
+    "question": "Tại sao AMQP thường được sử dụng trong các hệ thống backend của doanh nghiệp thay vì các thiết bị cảm biến đầu cuối?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì AMQP rất gọn nhẹ và yêu cầu ít tài nguyên."
+      },
+      {
+        "id": "B",
+        "text": "Vì AMQP cung cấp các tính năng cao cấp như giao dịch, định tuyến phức tạp, phù hợp cho các ứng dụng đòi hỏi độ tin cậy cao nhưng cũng phức tạp và tốn nhiều tài nguyên hơn."
+      },
+      {
+        "id": "C",
+        "text": "Vì AMQP không hỗ trợ bảo mật."
+      },
+      {
+        "id": "D",
+        "text": "Vì AMQP chỉ hoạt động trên mạng nội bộ."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì AMQP cung cấp các tính năng cao cấp như giao dịch, định tuyến phức tạp, phù hợp cho các ứng dụng đòi hỏi độ tin cậy cao nhưng cũng phức tạp và tốn nhiều tài nguyên hơn.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 78,
+    "clo": "CLO2.2",
+    "question": "Cách tiếp cận \"data-centric\" của DDS khác với \"message-centric\" của MQTT ở điểm nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "DDS tập trung vào việc gửi các \"tin nhắn\", còn MQTT tập trung vào việc chia sẻ \"dữ liệu\"."
+      },
+      {
+        "id": "B",
+        "text": "DDS tập trung vào việc chia sẻ \"dữ liệu\" qua một không gian dữ liệu ảo, còn MQTT tập trung vào việc gửi các \"tin nhắn\" qua một broker."
+      },
+      {
+        "id": "C",
+        "text": "Cả hai đều là \"message-centric\" nhưng DDS không cần broker."
+      },
+      {
+        "id": "D",
+        "text": "Cả hai đều là \"data-centric\" nhưng MQTT yêu cầu broker."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "DDS tập trung vào việc chia sẻ \"dữ liệu\" qua một không gian dữ liệu ảo, còn MQTT tập trung vào việc gửi các \"tin nhắn\" qua một broker.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 79,
+    "clo": "CLO2.2",
+    "question": "Việc Google ngừng cung cấp dịch vụ IoT Core cho thấy xu hướng gì trên thị trường nền tảng IoT đám mây?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thị trường đang thu hẹp và ít nhà cung cấp hơn."
+      },
+      {
+        "id": "B",
+        "text": "Việc chỉ cung cấp kết nối đơn lẻ là không đủ, giá trị nằm ở việc xây dựng một hệ sinh thái toàn diện tích hợp phân tích và AI."
+      },
+      {
+        "id": "C",
+        "text": "Các nền tảng đám mây đang chuyển sang mô hình miễn phí hoàn toàn."
+      },
+      {
+        "id": "D",
+        "text": "Các doanh nghiệp đang từ bỏ đám mây để tự xây dựng trung tâm dữ liệu."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Việc chỉ cung cấp kết nối đơn lẻ là không đủ, giá trị nằm ở việc xây dựng một hệ sinh thái toàn diện tích hợp phân tích và AI.",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 80,
+    "clo": "CLO2.2",
+    "question": "Mối quan hệ giữa tầm phủ sóng và tốc độ dữ liệu của các công nghệ LPWAN thường là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tầm phủ sóng càng xa, tốc độ dữ liệu càng cao."
+      },
+      {
+        "id": "B",
+        "text": "Tầm phủ sóng càng xa, tốc độ dữ liệu càng thấp."
+      },
+      {
+        "id": "C",
+        "text": "Tầm phủ sóng và tốc độ dữ liệu không liên quan đến nhau."
+      },
+      {
+        "id": "D",
+        "text": "Tất cả các công nghệ LPWAN đều có tầm phủ sóng và tốc độ dữ liệu như nhau."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tầm phủ sóng càng xa, tốc độ dữ liệu càng thấp.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 81,
+    "clo": "CLO2.2",
+    "question": "Tại sao LTE-M hỗ trợ các thiết bị di động (ví dụ: thiết bị theo dõi tài sản) tốt hơn NB-IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì LTE-M tiêu thụ nhiều năng lượng hơn."
+      },
+      {
+        "id": "B",
+        "text": "Vì LTE-M có tầm phủ sóng ngắn hơn."
+      },
+      {
+        "id": "C",
+        "text": "Vì LTE-M hỗ trợ đầy đủ tính năng chuyển vùng (handover) giữa các trạm phát sóng, trong khi NB-IoT thì không."
+      },
+      {
+        "id": "D",
+        "text": "Vì NB-IoT yêu cầu phải có kết nối Wi-Fi."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Vì LTE-M hỗ trợ đầy đủ tính năng chuyển vùng (handover) giữa các trạm phát sóng, trong khi NB-IoT thì không.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 82,
+    "clo": "CLO2.2",
+    "question": "Chức năng \"observe\" trong CoAP mang lại lợi ích gì so với việc client phải liên tục \"polling\" (gửi yêu cầu lặp lại)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\"Observe\" làm tăng lượng dữ liệu truyền đi."
+      },
+      {
+        "id": "B",
+        "text": "\"Observe\" cho phép client nhận thông báo khi tài nguyên thay đổi, giúp tiết kiệm năng lượng và băng thông so với việc phải hỏi liên tục."
+      },
+      {
+        "id": "C",
+        "text": "\"Polling\" nhanh và hiệu quả hơn \"observe\"."
+      },
+      {
+        "id": "D",
+        "text": "\"Observe\" chỉ hoạt động trên mạng TCP."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "\"Observe\" cho phép client nhận thông báo khi tài nguyên thay đổi, giúp tiết kiệm năng lượng và băng thông so với việc phải hỏi liên tục.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 83,
+    "clo": "CLO2.2",
+    "question": "Tại sao DDS là lựa chọn hàng đầu cho các hệ thống tự hành như xe tự lái?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó có độ trễ cao, giúp hệ thống có thời gian xử lý."
+      },
+      {
+        "id": "B",
+        "text": "Vì nó phụ thuộc vào một broker trung tâm duy nhất, dễ quản lý."
+      },
+      {
+        "id": "C",
+        "text": "Vì nó cung cấp giao tiếp peer-to-peer với độ trễ cực thấp và độ tin cậy cao, cần thiết cho việc ra quyết định tức thì."
+      },
+      {
+        "id": "D",
+        "text": "Vì nó là giao thức tiết kiệm năng lượng nhất."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Vì nó cung cấp giao tiếp peer-to-peer với độ trễ cực thấp và độ tin cậy cao, cần thiết cho việc ra quyết định tức thì.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 84,
+    "clo": "CLO2.2",
+    "question": "Một doanh nghiệp đã và đang sử dụng rộng rãi các sản phẩm của Microsoft (Office 365, Power BI) nên ưu tiên nền tảng IoT nào và tại sao?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AWS IoT, vì nó có nhiều dịch vụ nhất."
+      },
+      {
+        "id": "B",
+        "text": "Google Cloud IoT, vì nó mạnh về phân tích dữ liệu."
+      },
+      {
+        "id": "C",
+        "text": "Tự xây dựng một nền tảng riêng."
+      },
+      {
+        "id": "D",
+        "text": "Azure IoT, vì khả năng tích hợp liền mạch với hệ sinh thái Microsoft sẽ tạo ra luồng công việc hiệu quả."
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "Azure IoT, vì khả năng tích hợp liền mạch với hệ sinh thái Microsoft sẽ tạo ra luồng công việc hiệu quả.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 85,
+    "clo": "CLO2.2",
+    "question": "Ngoài vai trò chuyển tiếp dữ liệu, Gateway còn có chức năng quan trọng nào khác?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ lưu trữ dữ liệu tạm thời."
+      },
+      {
+        "id": "B",
+        "text": "Tăng cường bảo mật, lọc dữ liệu và có thể thực thi điện toán biên."
+      },
+      {
+        "id": "C",
+        "text": "Thay thế hoàn toàn cho nền tảng đám mây."
+      },
+      {
+        "id": "D",
+        "text": "Cung cấp giao diện người dùng cuối."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tăng cường bảo mật, lọc dữ liệu và có thể thực thi điện toán biên.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 86,
+    "clo": "CLO2.2",
+    "question": "Trong MQTT, mức Chất lượng Dịch vụ (QoS) nào đảm bảo tin nhắn được gửi \"chính xác một lần\"?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "QoS 0."
+      },
+      {
+        "id": "B",
+        "text": "QoS 1."
+      },
+      {
+        "id": "C",
+        "text": "QoS 2."
+      },
+      {
+        "id": "D",
+        "text": "QoS 3."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "QoS 2.",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 87,
+    "clo": "CLO2.2",
+    "question": "Tại sao bảo mật là một thách thức đa tầng trong IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì chỉ có lớp mạng cần được bảo vệ."
+      },
+      {
+        "id": "B",
+        "text": "Vì các mối đe dọa có thể xuất hiện ở bất kỳ lớp nào, từ thiết bị vật lý, mạng lưới truyền tải đến nền tảng đám mây."
+      },
+      {
+        "id": "C",
+        "text": "Vì bảo mật không quan trọng đối với các thiết bị IoT."
+      },
+      {
+        "id": "D",
+        "text": "Vì chỉ có dữ liệu người dùng cần được bảo mật, còn dữ liệu cảm biến thì không."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì các mối đe dọa có thể xuất hiện ở bất kỳ lớp nào, từ thiết bị vật lý, mạng lưới truyền tải đến nền tảng đám mây.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 88,
+    "clo": "CLO2.2",
+    "question": "\"Khả năng tương tác\" (Interoperability) trong IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Khả năng một thiết bị hoạt động mà không cần kết nối Internet."
+      },
+      {
+        "id": "B",
+        "text": "Khả năng các thiết bị và hệ thống từ các nhà sản xuất khác nhau có thể hoạt động cùng nhau một cách liền mạch."
+      },
+      {
+        "id": "C",
+        "text": "Khả năng nâng cấp phần mềm của thiết bị từ xa."
+      },
+      {
+        "id": "D",
+        "text": "Khả năng một thiết bị chống lại các cuộc tấn công mạng."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Khả năng các thiết bị và hệ thống từ các nhà sản xuất khác nhau có thể hoạt động cùng nhau một cách liền mạch.",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 89,
+    "clo": "CLO2.3",
+    "question": "Để thiết kế hệ thống giám sát độ ẩm đất cho một trang trại rộng lớn ở khu vực nông thôn, sự kết hợp công nghệ nào sau đây là hợp lý nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Wi-Fi cho cảm biến và HTTP để gửi dữ liệu lên đám mây."
+      },
+      {
+        "id": "B",
+        "text": "Bluetooth LE cho cảm biến và CoAP để gửi dữ liệu lên đám mây."
+      },
+      {
+        "id": "C",
+        "text": "LoRaWAN cho cảm biến và MQTT để gửi dữ liệu lên đám mây."
+      },
+      {
+        "id": "D",
+        "text": "5G cho cảm biến và DDS để gửi dữ liệu lên đám mây."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "LoRaWAN cho cảm biến và MQTT để gửi dữ liệu lên đám mây.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 90,
+    "clo": "CLO2.3",
+    "question": "Một nhà máy cần giám sát rung động của các máy móc để dự đoán sự cố, yêu cầu độ trễ cực thấp và giao tiếp trực tiếp giữa các máy. Nếu chọn MQTT, rủi ro lớn nhất là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chi phí quá cao."
+      },
+      {
+        "id": "B",
+        "text": "Broker trung tâm sẽ tạo ra độ trễ và là một điểm lỗi đơn (single point of failure)."
+      },
+      {
+        "id": "C",
+        "text": "Không đủ bảo mật."
+      },
+      {
+        "id": "D",
+        "text": "Băng thông quá thấp."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Broker trung tâm sẽ tạo ra độ trễ và là một điểm lỗi đơn (single point of failure).",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 91,
+    "clo": "CLO2.3",
+    "question": "Vấn đề quyền riêng tư lớn nhất đối với hệ thống nhà thông minh là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tiêu thụ quá nhiều điện năng."
+      },
+      {
+        "id": "B",
+        "text": "Dữ liệu về thói quen sinh hoạt của người dùng có thể bị thu thập và lạm dụng."
+      },
+      {
+        "id": "C",
+        "text": "Thiết bị có thể bị hỏng hóc."
+      },
+      {
+        "id": "D",
+        "text": "Tốc độ mạng bị chậm đi."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Dữ liệu về thói quen sinh hoạt của người dùng có thể bị thu thập và lạm dụng.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 92,
+    "clo": "CLO2.3",
+    "question": "Mạng 5G sẽ mang lại lợi ích đột phá nào cho các ứng dụng IoT như xe tự lái?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ tăng tầm phủ sóng."
+      },
+      {
+        "id": "B",
+        "text": "Giảm chi phí thiết bị."
+      },
+      {
+        "id": "C",
+        "text": "Cung cấp băng thông cực cao và độ trễ siêu thấp, cho phép ra quyết định và giao tiếp gần như tức thì."
+      },
+      {
+        "id": "D",
+        "text": "Tăng tuổi thọ pin của thiết bị lên nhiều năm."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Cung cấp băng thông cực cao và độ trễ siêu thấp, cho phép ra quyết định và giao tiếp gần như tức thì.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 93,
+    "clo": "CLO2.3",
+    "question": "Lợi ích chính của xu hướng \"Trí tuệ nhân tạo tại Biên\" (Edge AI) là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng cường khả năng lưu trữ trên đám mây."
+      },
+      {
+        "id": "B",
+        "text": "Cho phép ra quyết định tức thì, tăng quyền riêng tư và hoạt động được khi mất kết nối Internet."
+      },
+      {
+        "id": "C",
+        "text": "Giảm độ phức tạp trong việc quản lý thiết bị."
+      },
+      {
+        "id": "D",
+        "text": "Yêu cầu tất cả dữ liệu phải được gửi lên đám mây để xử lý."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Cho phép ra quyết định tức thì, tăng quyền riêng tư và hoạt động được khi mất kết nối Internet.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 94,
+    "clo": "CLO2.3",
+    "question": "Đối với ứng dụng cảm biến đỗ xe thông minh được đặt dưới lòng đất trong các bãi đỗ xe đô thị, công nghệ LPWAN nào là phù hợp nhất do khả năng thâm nhập tín hiệu tốt?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "LoRaWAN."
+      },
+      {
+        "id": "B",
+        "text": "Sigfox."
+      },
+      {
+        "id": "C",
+        "text": "NB-IoT."
+      },
+      {
+        "id": "D",
+        "text": "Wi-Fi HaLow."
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "NB-IoT.",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 95,
+    "clo": "CLO2.3",
+    "question": "\"Bản sao số\" (Digital Twin) của một động cơ máy bay, được cập nhật dữ liệu từ cảm biến IoT, có thể được sử dụng để làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ để hiển thị mô hình 3D của động cơ."
+      },
+      {
+        "id": "B",
+        "text": "Để chạy mô phỏng, dự đoán sự cố và tối ưu hóa lịch trình bảo trì."
+      },
+      {
+        "id": "C",
+        "text": "Để điều khiển máy bay từ xa."
+      },
+      {
+        "id": "D",
+        "text": "Để thay thế hoàn toàn động cơ vật lý."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Để chạy mô phỏng, dự đoán sự cố và tối ưu hóa lịch trình bảo trì.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 96,
+    "clo": "CLO2.3",
+    "question": "Một startup phát triển thiết bị đeo theo dõi sức khỏe cần kết nối với điện thoại thông minh. Tại sao Bluetooth LE (BLE) là lựa chọn thực tế hơn Wi-Fi HaLow?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì Wi-Fi HaLow có tầm phủ sóng ngắn hơn BLE."
+      },
+      {
+        "id": "B",
+        "text": "Vì BLE được tích hợp sẵn trong mọi điện thoại thông minh, trong khi Wi-Fi HaLow thì không."
+      },
+      {
+        "id": "C",
+        "text": "Vì Wi-Fi HaLow tiêu thụ nhiều năng lượng hơn BLE."
+      },
+      {
+        "id": "D",
+        "text": "Vì BLE có tốc độ dữ liệu cao hơn Wi-Fi HaLow."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì BLE được tích hợp sẵn trong mọi điện thoại thông minh, trong khi Wi-Fi HaLow thì không.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 97,
+    "clo": "CLO2.3",
+    "question": "Một doanh nghiệp nông nghiệp có nhiều trang trại ở vùng sâu, nơi sóng di động yếu hoặc không có. Mô hình triển khai mạng nào phù hợp hơn?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NB-IoT, vì nó phụ thuộc vào nhà mạng."
+      },
+      {
+        "id": "B",
+        "text": "LoRaWAN với mô hình mạng riêng, vì doanh nghiệp có thể tự tạo vùng phủ sóng."
+      },
+      {
+        "id": "C",
+        "text": "5G, vì nó có ở khắp mọi nơi."
+      },
+      {
+        "id": "D",
+        "text": "Wi-Fi, vì nó có tầm phủ sóng rất xa."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "LoRaWAN với mô hình mạng riêng, vì doanh nghiệp có thể tự tạo vùng phủ sóng.",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 98,
+    "clo": "CLO2.3",
+    "question": "Tại sao xu hướng \"Điện toán Đám mây Bền vững\" ngày càng trở nên quan trọng đối với các hệ thống IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó giúp tăng tốc độ xử lý dữ liệu."
+      },
+      {
+        "id": "B",
+        "text": "Vì khi quy mô IoT tăng lên, việc giảm thiểu tác động môi trường từ các trung tâm dữ liệu tiêu thụ năng lượng khổng lồ trở nên cấp thiết."
+      },
+      {
+        "id": "C",
+        "text": "Vì nó làm giảm chi phí phần cứng của thiết bị IoT."
+      },
+      {
+        "id": "D",
+        "text": "Vì nó là một yêu cầu bắt buộc để các thiết bị có thể kết nối với nhau."
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì khi quy mô IoT tăng lên, việc giảm thiểu tác động môi trường từ các trung tâm dữ liệu tiêu thụ năng lượng khổng lồ trở nên cấp thiết.",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 99,
+    "clo": "CLO3.1",
+    "question": "Ngôn ngữ lập trình nào được coi là tiêu chuẩn và phổ biến nhất cho các thiết bị vi điều khiển có tài nguyên hạn chế (RAM < 10KB)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Python"
+      },
+      {
+        "id": "B",
+        "text": "Java"
+      },
+      {
+        "id": "C",
+        "text": "C/C++"
+      },
+      {
+        "id": "D",
+        "text": "JavaScript"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "C/C++",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 100,
+    "clo": "CLO3.1",
+    "question": "Thành phần nào trong kiến trúc IoT chịu trách nhiệm thu thập dữ liệu từ môi trường vật lý?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lớp Mạng (Network Layer)"
+      },
+      {
+        "id": "B",
+        "text": "Lớp Ứng dụng (Application Layer)"
+      },
+      {
+        "id": "C",
+        "text": "Lớp Cảm nhận (Perception Layer)"
+      },
+      {
+        "id": "D",
+        "text": "Lớp Kinh doanh (Business Layer)"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Lớp Cảm nhận (Perception Layer)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 101,
+    "clo": "CLO3.1",
+    "question": "ESP32 nổi bật so với Arduino Uno nhờ tính năng tích hợp nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Có nhiều chân GPIO hơn"
+      },
+      {
+        "id": "B",
+        "text": "Tích hợp sẵn Wi-Fi và Bluetooth"
+      },
+      {
+        "id": "C",
+        "text": "Sử dụng điện áp 5V"
+      },
+      {
+        "id": "D",
+        "text": "Dễ lập trình hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tích hợp sẵn Wi-Fi và Bluetooth",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 102,
+    "clo": "CLO3.1",
+    "question": "Nền tảng nào sau đây là một IDE chuyên nghiệp thường chạy trên VS Code để phát triển IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Arduino IDE"
+      },
+      {
+        "id": "B",
+        "text": "Notepad++"
+      },
+      {
+        "id": "C",
+        "text": "PlatformIO"
+      },
+      {
+        "id": "D",
+        "text": "Eclipse"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "PlatformIO",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 103,
+    "clo": "CLO3.1",
+    "question": "Trong mô hình OSI, giao thức HTTP nằm ở lớp nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lớp Vật lý"
+      },
+      {
+        "id": "B",
+        "text": "Lớp Vận chuyển"
+      },
+      {
+        "id": "C",
+        "text": "Lớp Ứng dụng"
+      },
+      {
+        "id": "D",
+        "text": "Lớp Mạng"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Lớp Ứng dụng",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 104,
+    "clo": "CLO3.1",
+    "question": "Thiết bị nào sau đây được coi là Máy tính đơn bo (SBC) chạy hệ điều hành Linux?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ESP32"
+      },
+      {
+        "id": "B",
+        "text": "Arduino Nano"
+      },
+      {
+        "id": "C",
+        "text": "Raspberry Pi 4"
+      },
+      {
+        "id": "D",
+        "text": "STM32"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Raspberry Pi 4",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 105,
+    "clo": "CLO3.1",
+    "question": "Định dạng dữ liệu phổ biến nhất để trao đổi thông tin trong IoT hiện đại là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "XML"
+      },
+      {
+        "id": "B",
+        "text": "JSON"
+      },
+      {
+        "id": "C",
+        "text": "CSV"
+      },
+      {
+        "id": "D",
+        "text": "Binary"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "JSON",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 106,
+    "clo": "CLO3.1",
+    "question": "Chức năng chính của \"Broker\" trong MQTT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lưu trữ dữ liệu lâu dài"
+      },
+      {
+        "id": "B",
+        "text": "Phân tích dữ liệu AI"
+      },
+      {
+        "id": "C",
+        "text": "Nhận và phân phối tin nhắn đến các thiết bị đăng ký"
+      },
+      {
+        "id": "D",
+        "text": "Cấp phát địa chỉ IP cho thiết bị"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Nhận và phân phối tin nhắn đến các thiết bị đăng ký",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 107,
+    "clo": "CLO3.1",
+    "question": "Python (MicroPython) thường KHÔNG được ưu tiên cho tác vụ nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Xử lý logic ứng dụng nhanh"
+      },
+      {
+        "id": "B",
+        "text": "Điều khiển thời gian thực cứng (Hard real-time)"
+      },
+      {
+        "id": "C",
+        "text": "Phân tích dữ liệu tại biên"
+      },
+      {
+        "id": "D",
+        "text": "Prototyping (tạo mẫu)"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Điều khiển thời gian thực cứng (Hard real-time)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 108,
+    "clo": "CLO3.1",
+    "question": "Giao thức nào sử dụng UDP làm nền tảng vận chuyển?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "MQTT"
+      },
+      {
+        "id": "B",
+        "text": "HTTP"
+      },
+      {
+        "id": "C",
+        "text": "CoAP"
+      },
+      {
+        "id": "D",
+        "text": "SSH"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "CoAP",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 109,
+    "clo": "CLO3.1",
+    "question": "ThingsBoard là nền tảng IoT tập trung vào chức năng gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết kế phần cứng"
+      },
+      {
+        "id": "B",
+        "text": "Quản lý, thu thập và trực quan hóa dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Sản xuất chip bán dẫn"
+      },
+      {
+        "id": "D",
+        "text": "Cung cấp dịch vụ mạng 5G"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quản lý, thu thập và trực quan hóa dữ liệu",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 110,
+    "clo": "CLO3.2",
+    "question": "Lợi thế chính của việc sử dụng Kiến trúc 5 lớp so với 3 lớp trong IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giảm chi phí phần cứng"
+      },
+      {
+        "id": "B",
+        "text": "Tách biệt lớp Xử lý (Processing) và Kinh doanh (Business) để quản lý dữ liệu tốt hơn"
+      },
+      {
+        "id": "C",
+        "text": "Tăng tốc độ truyền mạng"
+      },
+      {
+        "id": "D",
+        "text": "Đơn giản hóa việc lập trình"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tách biệt lớp Xử lý (Processing) và Kinh doanh (Business) để quản lý dữ liệu tốt hơn",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 111,
+    "clo": "CLO3.2",
+    "question": "Tại sao Node.js phù hợp cho các Gateway hoặc Server IoT xử lý nhiều kết nối?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó chạy đa luồng (multi-thread)"
+      },
+      {
+        "id": "B",
+        "text": "Vì mô hình I/O không chặn (non-blocking I/O) và hướng sự kiện"
+      },
+      {
+        "id": "C",
+        "text": "Vì nó biên dịch ra mã máy trực tiếp"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó không cần hệ điều hành"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì mô hình I/O không chặn (non-blocking I/O) và hướng sự kiện",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 112,
+    "clo": "CLO3.2",
+    "question": "Tính năng \"Device Shadow\" trong AWS IoT Core có tác dụng gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tạo bản sao lưu dự phòng của firmware"
+      },
+      {
+        "id": "B",
+        "text": "Cho phép ứng dụng tương tác với trạng thái thiết bị ngay cả khi thiết bị offline"
+      },
+      {
+        "id": "C",
+        "text": "Giám sát vị trí vật lý của thiết bị"
+      },
+      {
+        "id": "D",
+        "text": "Mã hóa dữ liệu đường truyền"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Cho phép ứng dụng tương tác với trạng thái thiết bị ngay cả khi thiết bị offline",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 113,
+    "clo": "CLO3.2",
+    "question": "Sự khác biệt chính giữa MQTT QoS 0 và QoS 1 là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "QoS 0 đảm bảo tin nhắn đến ít nhất một lần, QoS 1 thì không"
+      },
+      {
+        "id": "B",
+        "text": "QoS 0 là \"fire and forget\" (không xác nhận), QoS 1 đảm bảo đến ít nhất một lần (có xác nhận)"
+      },
+      {
+        "id": "C",
+        "text": "QoS 0 chậm hơn QoS 1"
+      },
+      {
+        "id": "D",
+        "text": "QoS 0 dùng UDP, QoS 1 dùng TCP"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "QoS 0 là \"fire and forget\" (không xác nhận), QoS 1 đảm bảo đến ít nhất một lần (có xác nhận)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 114,
+    "clo": "CLO3.2",
+    "question": "Giao thức LwM2M được thiết kế chủ yếu để giải quyết vấn đề gì mà MQTT thường bỏ ngỏ?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Truyền video trực tuyến"
+      },
+      {
+        "id": "B",
+        "text": "Quản lý thiết bị (Device Management) và cập nhật Firmware (FOTA) chuẩn hóa"
+      },
+      {
+        "id": "C",
+        "text": "Mã hóa dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Tăng tốc độ mạng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quản lý thiết bị (Device Management) và cập nhật Firmware (FOTA) chuẩn hóa",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 115,
+    "clo": "CLO3.2",
+    "question": "Khi thiết kế hệ thống chạy bằng pin lâu năm, tại sao CoAP có thể tốt hơn MQTT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì CoAP không cần kết nối TCP liên tục (Keep-alive)"
+      },
+      {
+        "id": "B",
+        "text": "Vì CoAP mã hóa dữ liệu tốt hơn"
+      },
+      {
+        "id": "C",
+        "text": "Vì CoAP chạy trên vi xử lý 8-bit tốt hơn"
+      },
+      {
+        "id": "D",
+        "text": "Vì CoAP không hỗ trợ gửi lại tin"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Vì CoAP không cần kết nối TCP liên tục (Keep-alive)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 116,
+    "clo": "CLO3.2",
+    "question": "Raspberry Pi Pico (RP2040) có tính năng đặc biệt nào giúp xử lý I/O tốc độ cao mà không làm bận CPU?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "GPU tích hợp"
+      },
+      {
+        "id": "B",
+        "text": "Khối PIO (Programmable I/O)"
+      },
+      {
+        "id": "C",
+        "text": "Neural Engine"
+      },
+      {
+        "id": "D",
+        "text": "FPGA"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Khối PIO (Programmable I/O)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 117,
+    "clo": "CLO3.2",
+    "question": "Để bảo mật kết nối MQTT ở mức cao nhất, phương pháp nào được khuyến nghị?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ dùng Username/Password"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng Client ID phức tạp"
+      },
+      {
+        "id": "C",
+        "text": "Mutual TLS (mTLS) với chứng chỉ X.509"
+      },
+      {
+        "id": "D",
+        "text": "Mã hóa payload bằng Base64"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Mutual TLS (mTLS) với chứng chỉ X.509",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 118,
+    "clo": "CLO3.2",
+    "question": "\"Rule Engine\" trong ThingsBoard cho phép làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Viết driver cho thiết bị"
+      },
+      {
+        "id": "B",
+        "text": "Xử lý, lọc và định tuyến dữ liệu theo quy trình (workflow) trực quan"
+      },
+      {
+        "id": "C",
+        "text": "Thiết kế mạch in PCB"
+      },
+      {
+        "id": "D",
+        "text": "Tạo máy chủ ảo"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Xử lý, lọc và định tuyến dữ liệu theo quy trình (workflow) trực quan",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 119,
+    "clo": "CLO3.2",
+    "question": "Google Cloud IoT Core đã bị khai tử. Giải pháp thay thế nào cho phép giữ nguyên cấu hình thiết bị MQTT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chuyển sang HTTP"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng các dịch vụ có công cụ di chuyển tự động như ClearBlade"
+      },
+      {
+        "id": "C",
+        "text": "Mua phần cứng mới"
+      },
+      {
+        "id": "D",
+        "text": "Tự xây dựng Broker từ đầu"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng các dịch vụ có công cụ di chuyển tự động như ClearBlade",
+    "confidence": 0.75,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 120,
+    "clo": "CLO3.2",
+    "question": "Cụm từ \"Vendor Lock-in\" ám chỉ rủi ro gì trong IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Bị khóa tài khoản do nhập sai mật khẩu"
+      },
+      {
+        "id": "B",
+        "text": "Phụ thuộc quá nhiều vào công nghệ độc quyền của một nhà cung cấp đám mây khó chuyển đổi"
+      },
+      {
+        "id": "C",
+        "text": "Thiết bị bị khóa cứng (brick) khi cập nhật lỗi"
+      },
+      {
+        "id": "D",
+        "text": "Nhà cung cấp ngừng bán phần cứng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Phụ thuộc quá nhiều vào công nghệ độc quyền của một nhà cung cấp đám mây khó chuyển đổi",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 121,
+    "clo": "CLO3.2",
+    "question": "Trong lập trình ESP32, \"Deep Sleep\" giúp ích gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng tốc độ CPU"
+      },
+      {
+        "id": "B",
+        "text": "Giảm tiêu thụ năng lượng xuống mức micro-ampere"
+      },
+      {
+        "id": "C",
+        "text": "Tăng dung lượng bộ nhớ"
+      },
+      {
+        "id": "D",
+        "text": "Tự động kết nối Wi-Fi nhanh hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Giảm tiêu thụ năng lượng xuống mức micro-ampere",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 122,
+    "clo": "CLO3.2",
+    "question": "Docker/Container thường được sử dụng ở đâu trong hệ thống IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Trên vi điều khiển 8-bit (Arduino Uno)"
+      },
+      {
+        "id": "B",
+        "text": "Trên cảm biến nhiệt độ"
+      },
+      {
+        "id": "C",
+        "text": "Trên Gateway biên (Edge Gateway) hoặc Server"
+      },
+      {
+        "id": "D",
+        "text": "Trên giao thức MQTT"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Trên Gateway biên (Edge Gateway) hoặc Server",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 123,
+    "clo": "CLO3.3",
+    "question": "K3s là gì và tại sao nó phù hợp cho Edge Computing?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Là ngôn ngữ lập trình mới cho AI"
+      },
+      {
+        "id": "B",
+        "text": "Là phiên bản Kubernetes rút gọn, nhẹ (<100MB), tối ưu cho thiết bị biên"
+      },
+      {
+        "id": "C",
+        "text": "Là một loại cảm biến 3D"
+      },
+      {
+        "id": "D",
+        "text": "Là giao thức mạng thay thế TCP"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Là phiên bản Kubernetes rút gọn, nhẹ (<100MB), tối ưu cho thiết bị biên",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 124,
+    "clo": "CLO3.3",
+    "question": "Trong kiến trúc Microservices của ThingsBoard, công nghệ nào thường được dùng để trao đổi tin nhắn giữa các dịch vụ (services)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "HTTP REST API"
+      },
+      {
+        "id": "B",
+        "text": "Kafka hoặc RabbitMQ"
+      },
+      {
+        "id": "C",
+        "text": "Shared Database"
+      },
+      {
+        "id": "D",
+        "text": "File Text"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Kafka hoặc RabbitMQ",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 125,
+    "clo": "CLO3.3",
+    "question": "EdgeX Foundry giải quyết vấn đề gì trong IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng tốc độ Wi-Fi"
+      },
+      {
+        "id": "B",
+        "text": "Tính tương tác (Interoperability) giữa các giao thức và thiết bị không đồng nhất tại biên"
+      },
+      {
+        "id": "C",
+        "text": "Lưu trữ dữ liệu đám mây"
+      },
+      {
+        "id": "D",
+        "text": "Thay thế hệ điều hành Linux"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tính tương tác (Interoperability) giữa các giao thức và thiết bị không đồng nhất tại biên",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 126,
+    "clo": "CLO3.3",
+    "question": "Global Interpreter Lock\" (GIL) trong Python gây trở ngại gì cho ứng dụng IoT Gateway hiệu năng cao?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Không cho phép chạy code Python"
+      },
+      {
+        "id": "B",
+        "text": "Giới hạn khả năng thực thi đa luồng thực sự (true parallelism) trên CPU đa nhân"
+      },
+      {
+        "id": "C",
+        "text": "Làm tốn bộ nhớ RAM"
+      },
+      {
+        "id": "D",
+        "text": "Không hỗ trợ kết nối mạng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Giới hạn khả năng thực thi đa luồng thực sự (true parallelism) trên CPU đa nhân",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 127,
+    "clo": "CLO3.3",
+    "question": "Để thực hiện \"Secure Boot\" trên ESP32, khóa (key) bảo mật cần được lưu ở đâu?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Trong mã nguồn chương trình"
+      },
+      {
+        "id": "B",
+        "text": "Trong thẻ nhớ SD"
+      },
+      {
+        "id": "C",
+        "text": "Trong bộ nhớ eFuse (One-time programmable)"
+      },
+      {
+        "id": "D",
+        "text": "Trên Cloud"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Trong bộ nhớ eFuse (One-time programmable)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 128,
+    "clo": "CLO3.3",
+    "question": "Quy trình JITP (Just-in-Time Provisioning) trong AWS IoT hoạt động như thế nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tạo trước tất cả chứng chỉ thiết bị trên Cloud"
+      },
+      {
+        "id": "B",
+        "text": "Thiết bị tự động đăng ký và nhận quyền khi kết nối lần đầu tiên bằng chứng chỉ CA gốc"
+      },
+      {
+        "id": "C",
+        "text": "Người dùng nhập thủ công ID thiết bị vào hệ thống"
+      },
+      {
+        "id": "D",
+        "text": "Thiết bị không cần chứng chỉ"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thiết bị tự động đăng ký và nhận quyền khi kết nối lần đầu tiên bằng chứng chỉ CA gốc",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 129,
+    "clo": "CLO3.3",
+    "question": "LwM2M sử dụng cơ chế nào để tối ưu hóa việc truyền dữ liệu firmware lớn qua mạng NB-IoT hẹp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Block-wise transfers"
+      },
+      {
+        "id": "B",
+        "text": "MQTT Streaming"
+      },
+      {
+        "id": "C",
+        "text": "Base64 Encoding"
+      },
+      {
+        "id": "D",
+        "text": "Gửi toàn bộ file một lần"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Block-wise transfers",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 130,
+    "clo": "CLO3.3",
+    "question": "Sự khác biệt về kiến trúc cơ sở dữ liệu giữa ThingsBoard Community và Professional (hoặc cấu hình Hybrid)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Community không hỗ trợ SQL"
+      },
+      {
+        "id": "B",
+        "text": "Hybrid sử dụng PostgreSQL cho Entities và Cassandra/TimescaleDB cho Timeseries data"
+      },
+      {
+        "id": "C",
+        "text": "Hybrid chỉ dùng MongoDB"
+      },
+      {
+        "id": "D",
+        "text": "Community chỉ lưu dữ liệu trên RAM"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Hybrid sử dụng PostgreSQL cho Entities và Cassandra/TimescaleDB cho Timeseries data",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 131,
+    "clo": "CLO3.3",
+    "question": "Tại sao không nên dùng thẻ SD để lưu trữ CSDL (Database) trên Raspberry Pi làm Gateway công nghiệp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thẻ SD quá đắt"
+      },
+      {
+        "id": "B",
+        "text": "Thẻ SD có giới hạn số lần ghi (write cycles), dễ hỏng khi ghi log liên tục"
+      },
+      {
+        "id": "C",
+        "text": "Thẻ SD không hỗ trợ Linux"
+      },
+      {
+        "id": "D",
+        "text": "Tốc độ đọc chậm"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thẻ SD có giới hạn số lần ghi (write cycles), dễ hỏng khi ghi log liên tục",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 132,
+    "clo": "CLO3.3",
+    "question": "Để tích hợp một cảm biến công nghiệp dùng giao thức Modbus RTU (RS485) vào hệ thống IoT hiện đại, thiết bị nào là cần thiết nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Một router Wi-Fi"
+      },
+      {
+        "id": "B",
+        "text": "IoT Gateway có cổng Serial và chạy dịch vụ chuyển đổi (như EdgeX Modbus Device Service)"
+      },
+      {
+        "id": "C",
+        "text": "Cloud Server"
+      },
+      {
+        "id": "D",
+        "text": "Cáp Ethernet"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "IoT Gateway có cổng Serial và chạy dịch vụ chuyển đổi (như EdgeX Modbus Device Service)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 133,
+    "clo": "CLO3.3",
+    "question": "Trong sơ đồ mTLS, Server xác thực Client bằng cách nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Client gửi mật khẩu"
+      },
+      {
+        "id": "B",
+        "text": "Client gửi chứng chỉ (Certificate) của nó và Server kiểm tra chữ ký với CA gốc (Root CA)"
+      },
+      {
+        "id": "C",
+        "text": "Server gửi mã OTP"
+      },
+      {
+        "id": "D",
+        "text": "Client gửi địa chỉ MAC"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Client gửi chứng chỉ (Certificate) của nó và Server kiểm tra chữ ký với CA gốc (Root CA)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 134,
+    "clo": "CLO3.4",
+    "question": "Bạn đang thiết kế một hệ thống giám sát rừng rậm dùng pin mặt trời, mạng LoRaWAN rất chậm và chập chờn. Giao thức và kiến trúc nào là tối ưu nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "HTTP + JSON (Dễ debug)"
+      },
+      {
+        "id": "B",
+        "text": "MQTT + TLS (Bảo mật)"
+      },
+      {
+        "id": "C",
+        "text": "CoAP/LwM2M + CBOR (Tối ưu băng thông & năng lượng)"
+      },
+      {
+        "id": "D",
+        "text": "WebSockets (Thời gian thực)"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "CoAP/LwM2M + CBOR (Tối ưu băng thông & năng lượng)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 135,
+    "clo": "CLO3.4",
+    "question": "Khi hệ thống IoT phát triển từ 100 thiết bị lên 1 triệu thiết bị, tại sao kiến trúc Monolithic của ThingsBoard có thể gặp vấn đề và cần chuyển sang Microservices?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Monolithic khó cài đặt"
+      },
+      {
+        "id": "B",
+        "text": "Monolithic có \"Single Point of Failure\" và khó mở rộng ngang (horizontal scaling) từng thành phần riêng lẻ (như MQTT Transport)"
+      },
+      {
+        "id": "C",
+        "text": "Monolithic tốn nhiều RAM hơn Microservices"
+      },
+      {
+        "id": "D",
+        "text": "Monolithic không hỗ trợ giao diện web"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Monolithic có \"Single Point of Failure\" và khó mở rộng ngang (horizontal scaling) từng thành phần riêng lẻ (như MQTT Transport)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 136,
+    "clo": "CLO3.4",
+    "question": "Trong bài toán cập nhật OTA cho hàng triệu thiết bị, sử dụng MQTT hay HTTP là tốt hơn?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "MQTT vì nó nhanh hơn"
+      },
+      {
+        "id": "B",
+        "text": "HTTP (Range Requests) thường tốt hơn để tải file lớn (chunking), MQTT dùng để gửi lệnh thông báo cập nhật"
+      },
+      {
+        "id": "C",
+        "text": "MQTT tốt hơn vì nó giữ kết nối"
+      },
+      {
+        "id": "D",
+        "text": "Cả hai đều không dùng được"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "HTTP (Range Requests) thường tốt hơn để tải file lớn (chunking), MQTT dùng để gửi lệnh thông báo cập nhật",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 137,
+    "clo": "CLO3.4",
+    "question": "Khi sử dụng AWS IoT Core, làm thế nào để giảm chi phí nếu thiết bị gửi dữ liệu tần suất cao (1s/lần) nhưng ứng dụng chỉ cần cập nhật trạng thái mỗi phút?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Gửi tất cả lên Cloud và lọc bằng Lambda"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng AWS Greengrass tại biên để tổng hợp (aggregate) dữ liệu trước khi gửi lên Cloud"
+      },
+      {
+        "id": "C",
+        "text": "Tắt thiết bị 59 giây mỗi phút"
+      },
+      {
+        "id": "D",
+        "text": "Mua gói Enterprise"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng AWS Greengrass tại biên để tổng hợp (aggregate) dữ liệu trước khi gửi lên Cloud",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 138,
+    "clo": "CLO3.4",
+    "question": "Sự cố \"Head-of-line blocking\" trong giao thức HTTP/1.1 ảnh hưởng thế nào đến IoT Gateway?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Làm Gateway bị treo"
+      },
+      {
+        "id": "B",
+        "text": "Một request chậm sẽ chặn toàn bộ các request phía sau trên cùng một kết nối TCP"
+      },
+      {
+        "id": "C",
+        "text": "Làm mất dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Làm tăng bảo mật"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Một request chậm sẽ chặn toàn bộ các request phía sau trên cùng một kết nối TCP",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 139,
+    "clo": "CLO3.4",
+    "question": "Để ngăn chặn việc sao chép thiết bị (Cloning) trong sản xuất, giải pháp bảo mật phần cứng nào là cần thiết?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sử dụng mật khẩu Wi-Fi mạnh"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng Secure Element để sinh và lưu Private Key, không bao giờ xuất key ra ngoài"
+      },
+      {
+        "id": "C",
+        "text": "Mã hóa thẻ nhớ"
+      },
+      {
+        "id": "D",
+        "text": "Dùng tem chống hàng giả"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng Secure Element để sinh và lưu Private Key, không bao giờ xuất key ra ngoài",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 140,
+    "clo": "CLO3.4",
+    "question": "Khi thiết kế hệ thống \"Smart City\" với hàng nghìn cảm biến đường phố, tại sao mạng Mesh (như Zigbee/Thread) hoặc LPWAN (LoRaWAN) lại được ưu tiên hơn Wi-Fi?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Wi-Fi tốn quá nhiều năng lượng và phạm vi phủ sóng ngắn"
+      },
+      {
+        "id": "B",
+        "text": "Wi-Fi không bảo mật"
+      },
+      {
+        "id": "C",
+        "text": "Wi-Fi đắt tiền hơn"
+      },
+      {
+        "id": "D",
+        "text": "Wi-Fi không hỗ trợ IP"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Wi-Fi tốn quá nhiều năng lượng và phạm vi phủ sóng ngắn",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 141,
+    "clo": "CLO3.4",
+    "question": "Trong ThingsBoard, node \"Enrichment\" trong Rule Chain dùng để làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Làm giàu (tăng tiền) cho người dùng"
+      },
+      {
+        "id": "B",
+        "text": "Bổ sung thêm thông tin vào tin nhắn từ cơ sở dữ liệu (ví dụ: thêm tên khách hàng dựa trên ID thiết bị)"
+      },
+      {
+        "id": "C",
+        "text": "Nén dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Gửi email"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Bổ sung thêm thông tin vào tin nhắn từ cơ sở dữ liệu (ví dụ: thêm tên khách hàng dựa trên ID thiết bị)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 142,
+    "clo": "CLO3.4",
+    "question": "Vấn đề lớn nhất khi sử dụng chứng chỉ tự ký (Self-signed certificate) trong môi trường Production là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tốn tiền mua"
+      },
+      {
+        "id": "B",
+        "text": "Khó quản lý sự tin cậy (Trust) và thu hồi (Revocation) trên quy mô lớn, thiếu Root CA uy tín"
+      },
+      {
+        "id": "C",
+        "text": "Không mã hóa được dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Chậm hơn chứng chỉ CA"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Khó quản lý sự tin cậy (Trust) và thu hồi (Revocation) trên quy mô lớn, thiếu Root CA uy tín",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 143,
+    "clo": "CLO3.4",
+    "question": "Tại sao kiến trúc Event-driven (Hướng sự kiện) lại phù hợp cho Server IoT hơn là kiến trúc Thread-per-request (Mỗi yêu cầu một luồng)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì IoT có rất nhiều kết nối nhàn rỗi (idle) đợi dữ liệu, Thread-per-request sẽ làm cạn kiệt RAM do tạo quá nhiều luồng"
+      },
+      {
+        "id": "B",
+        "text": "Vì Event-driven dễ lập trình hơn"
+      },
+      {
+        "id": "C",
+        "text": "Vì Event-driven bảo mật hơn"
+      },
+      {
+        "id": "D",
+        "text": "Vì Thread-per-request không hỗ trợ TCP"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Vì IoT có rất nhiều kết nối nhàn rỗi (idle) đợi dữ liệu, Thread-per-request sẽ làm cạn kiệt RAM do tạo quá nhiều luồng",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 144,
+    "clo": "CLO3.4",
+    "question": "Để tích hợp AI (ví dụ: nhận diện người) trên Camera giám sát mà không tốn băng thông gửi video về Server, giải pháp là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nén video thật nhỏ"
+      },
+      {
+        "id": "B",
+        "text": "Edge AI (chạy model AI trực tiếp trên thiết bị biên) và chỉ gửi kết quả (metadata) về Server"
+      },
+      {
+        "id": "C",
+        "text": "Gửi video vào ban đêm"
+      },
+      {
+        "id": "D",
+        "text": "Dùng mạng 5G"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Edge AI (chạy model AI trực tiếp trên thiết bị biên) và chỉ gửi kết quả (metadata) về Server",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 145,
+    "clo": "CLO3.4",
+    "question": "Trong bối cảnh Google Cloud IoT Core ngừng hoạt động, chiến lược \"Multi-cloud\" hoặc \"Cloud-agnostic\" mang lại lợi ích gì lớn nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giảm giá thành dịch vụ"
+      },
+      {
+        "id": "B",
+        "text": "Đảm bảo tính liên tục của kinh doanh (Business Continuity) và không phụ thuộc vào một nhà cung cấp duy nhất"
+      },
+      {
+        "id": "C",
+        "text": "Tăng tốc độ lập trình"
+      },
+      {
+        "id": "D",
+        "text": "Đơn giản hóa kiến trúc"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Đảm bảo tính liên tục của kinh doanh (Business Continuity) và không phụ thuộc vào một nhà cung cấp duy nhất",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 146,
+    "clo": "CLO4.1",
+    "question": "Một trong những nguyên nhân chính khiến thiết bị IoT dễ bị tấn công là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết bị quá đắt tiền"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng mật khẩu mặc định hoặc dễ đoán"
+      },
+      {
+        "id": "C",
+        "text": "Kết nối mạng quá chậm"
+      },
+      {
+        "id": "D",
+        "text": "Thiết bị có màn hình cảm ứng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng mật khẩu mặc định hoặc dễ đoán",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 147,
+    "clo": "CLO4.1",
+    "question": "Cuộc tấn công từ chối dịch vụ phân tán (DDoS) sử dụng thiết bị IoT thường được thực hiện thông qua mạng lưới nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Intranet"
+      },
+      {
+        "id": "B",
+        "text": "Botnet"
+      },
+      {
+        "id": "C",
+        "text": "Ethernet"
+      },
+      {
+        "id": "D",
+        "text": "Darknet"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Botnet",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 148,
+    "clo": "CLO4.1",
+    "question": "Tổ chức nào đưa ra danh sách 10 lỗ hổng bảo mật hàng đầu cho IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "NASA"
+      },
+      {
+        "id": "B",
+        "text": "WHO"
+      },
+      {
+        "id": "C",
+        "text": "OWASP"
+      },
+      {
+        "id": "D",
+        "text": "IEEE"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "OWASP",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 149,
+    "clo": "CLO4.1",
+    "question": "Tại sao việc cập nhật firmware (phần mềm hệ thống) cho thiết bị IoT lại quan trọng?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Để làm đẹp giao diện"
+      },
+      {
+        "id": "B",
+        "text": "Để vá các lỗ hổng bảo mật đã biết"
+      },
+      {
+        "id": "C",
+        "text": "Để tăng dung lượng pin gấp đôi"
+      },
+      {
+        "id": "D",
+        "text": "Để thay đổi màu sắc đèn LED"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Để vá các lỗ hổng bảo mật đã biết",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 150,
+    "clo": "CLO4.1",
+    "question": "Giao thức nào sau đây thường được dùng để quản trị thiết bị từ xa nhưng không an toàn nếu không mã hóa?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Telnet"
+      },
+      {
+        "id": "B",
+        "text": "HTTPS"
+      },
+      {
+        "id": "C",
+        "text": "SSH"
+      },
+      {
+        "id": "D",
+        "text": "TLS"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Telnet",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 151,
+    "clo": "CLO4.1",
+    "question": "Mã độc Mirai nổi tiếng với hành vi nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Mã hóa dữ liệu đòi tiền chuộc"
+      },
+      {
+        "id": "B",
+        "text": "Quét và tấn công các thiết bị dùng mật khẩu mặc định"
+      },
+      {
+        "id": "C",
+        "text": "Ăn cắp tài khoản ngân hàng"
+      },
+      {
+        "id": "D",
+        "text": "Phá hủy phần cứng máy tính"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quét và tấn công các thiết bị dùng mật khẩu mặc định",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 152,
+    "clo": "CLO4.1",
+    "question": "Quyền riêng tư trong IoT thường bị xâm phạm do đâu?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết bị thu thập dữ liệu cá nhân mà không bảo vệ hoặc xin phép"
+      },
+      {
+        "id": "B",
+        "text": "Thiết bị không có kết nối Internet"
+      },
+      {
+        "id": "C",
+        "text": "Người dùng tắt thiết bị"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng mạng 4G"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Thiết bị thu thập dữ liệu cá nhân mà không bảo vệ hoặc xin phép",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 153,
+    "clo": "CLO4.1",
+    "question": "\"Edge Computing\" (Điện toán biên) giúp ích gì cho bảo mật IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng độ trễ mạng"
+      },
+      {
+        "id": "B",
+        "text": "Xử lý dữ liệu tại chỗ, giảm thiểu việc gửi dữ liệu thô nhạy cảm lên đám mây"
+      },
+      {
+        "id": "C",
+        "text": "Làm thiết bị nóng hơn"
+      },
+      {
+        "id": "D",
+        "text": "Bắt buộc phải dùng 5G"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Xử lý dữ liệu tại chỗ, giảm thiểu việc gửi dữ liệu thô nhạy cảm lên đám mây",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 154,
+    "clo": "CLO4.1",
+    "question": "Theo báo cáo, loại thiết bị nào thường là mục tiêu tấn công nhiều nhất tại Việt Nam?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tủ lạnh thông minh"
+      },
+      {
+        "id": "B",
+        "text": "Camera giám sát và Router"
+      },
+      {
+        "id": "C",
+        "text": "Máy giặt"
+      },
+      {
+        "id": "D",
+        "text": "Đèn thông minh"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Camera giám sát và Router",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 155,
+    "clo": "CLO4.1",
+    "question": "2FA là viết tắt của thuật ngữ gì trong bảo mật?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Two-Factor Authentication (Xác thực hai yếu tố)"
+      },
+      {
+        "id": "B",
+        "text": "Two-Face Attack"
+      },
+      {
+        "id": "C",
+        "text": "Two-Folder Access"
+      },
+      {
+        "id": "D",
+        "text": "Two-Frequency Antenna"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Two-Factor Authentication (Xác thực hai yếu tố)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 156,
+    "clo": "CLO4.1",
+    "question": "Hành động \"Jailbreak\" hoặc \"Root\" thiết bị IoT có rủi ro gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Làm thiết bị chạy nhanh hơn"
+      },
+      {
+        "id": "B",
+        "text": "Loại bỏ các cơ chế bảo mật của nhà sản xuất, dễ bị tấn công"
+      },
+      {
+        "id": "C",
+        "text": "Tăng thời gian bảo hành"
+      },
+      {
+        "id": "D",
+        "text": "Giúp thiết bị chống nước"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Loại bỏ các cơ chế bảo mật của nhà sản xuất, dễ bị tấn công",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 157,
+    "clo": "CLO4.2",
+    "question": "Cơ chế \"Secure Boot\" bảo vệ thiết bị IoT như thế nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Khởi động thiết bị nhanh hơn"
+      },
+      {
+        "id": "B",
+        "text": "Chỉ cho phép chạy các firmware có chữ ký số hợp lệ của nhà sản xuất"
+      },
+      {
+        "id": "C",
+        "text": "Tự động kết nối Wi-Fi khi khởi động"
+      },
+      {
+        "id": "D",
+        "text": "Mã hóa toàn bộ ổ cứng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Chỉ cho phép chạy các firmware có chữ ký số hợp lệ của nhà sản xuất",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 158,
+    "clo": "CLO4.2",
+    "question": "Lỗ hổng \"Insecure Network Services\" thường dẫn đến nguy cơ gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết bị bị treo máy"
+      },
+      {
+        "id": "B",
+        "text": "Kẻ tấn công có thể khai thác các cổng mở (open ports) để thực thi mã từ xa"
+      },
+      {
+        "id": "C",
+        "text": "Mất kết nối Bluetooth"
+      },
+      {
+        "id": "D",
+        "text": "Hết pin nhanh"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Kẻ tấn công có thể khai thác các cổng mở (open ports) để thực thi mã từ xa",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 159,
+    "clo": "CLO4.2",
+    "question": "Tấn công \"Man-in-the-Middle\" (MitM) trong IoT thường xảy ra khi nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Dữ liệu truyền tải không được mã hóa hoặc mã hóa yếu"
+      },
+      {
+        "id": "B",
+        "text": "Thiết bị hết dung lượng lưu trữ"
+      },
+      {
+        "id": "C",
+        "text": "Mất điện đột ngột"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng mật khẩu quá dài"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thiết bị hết dung lượng lưu trữ",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 160,
+    "clo": "CLO4.2",
+    "question": "Một cuộc tấn công SQL Injection vào giao diện quản trị IoT nhằm mục đích gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Làm hỏng chip xử lý"
+      },
+      {
+        "id": "B",
+        "text": "Thao túng cơ sở dữ liệu để đăng nhập trái phép hoặc trích xuất dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Gửi tin nhắn rác"
+      },
+      {
+        "id": "D",
+        "text": "Tăng tốc độ quạt làm mát"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thao túng cơ sở dữ liệu để đăng nhập trái phép hoặc trích xuất dữ liệu",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 161,
+    "clo": "CLO4.2",
+    "question": "\"Anti-rollback\" trong cập nhật firmware có tác dụng gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ngăn chặn người dùng quay lại phiên bản firmware cũ chứa lỗ hổng"
+      },
+      {
+        "id": "B",
+        "text": "Tự động sao lưu dữ liệu"
+      },
+      {
+        "id": "C",
+        "text": "Cho phép cài đặt nhiều hệ điều hành"
+      },
+      {
+        "id": "D",
+        "text": "Tăng tốc độ tải về"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Ngăn chặn người dùng quay lại phiên bản firmware cũ chứa lỗ hổng",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 162,
+    "clo": "CLO4.2",
+    "question": "Tại sao sử dụng các thư viện mã nguồn mở cũ (Outdated Components) lại nguy hiểm?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì chúng không tương thích với phần cứng mới"
+      },
+      {
+        "id": "B",
+        "text": "Vì chúng có thể chứa các lỗ hổng đã được công bố (CVE) mà tin tặc đã biết cách khai thác"
+      },
+      {
+        "id": "C",
+        "text": "Vì chúng tốn nhiều bộ nhớ"
+      },
+      {
+        "id": "D",
+        "text": "Vì chúng không có giao diện đẹp"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì chúng có thể chứa các lỗ hổng đã được công bố (CVE) mà tin tặc đã biết cách khai thác",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 163,
+    "clo": "CLO4.2",
+    "question": "Vụ tấn công Jeep Hack (2015) đã chứng minh điều gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Xe hơi không thể bị hack"
+      },
+      {
+        "id": "B",
+        "text": "Tin tặc có thể điều khiển phương tiện vật lý từ xa qua mạng di động"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ có thể hack khi kết nối dây trực tiếp"
+      },
+      {
+        "id": "D",
+        "text": "Hệ thống giải trí trên xe rất an toàn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tin tặc có thể điều khiển phương tiện vật lý từ xa qua mạng di động",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 164,
+    "clo": "CLO4.2",
+    "question": "Tấn công \"Phishing\" nhắm vào người dùng IoT thường nhằm mục đích gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lấy cắp thông tin đăng nhập tài khoản quản lý thiết bị (Cloud account)"
+      },
+      {
+        "id": "B",
+        "text": "Làm hỏng thiết bị vật lý"
+      },
+      {
+        "id": "C",
+        "text": "Chặn sóng Wi-Fi"
+      },
+      {
+        "id": "D",
+        "text": "Tăng dung lượng lưu trữ đám mây"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Lấy cắp thông tin đăng nhập tài khoản quản lý thiết bị (Cloud account)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 165,
+    "clo": "CLO4.2",
+    "question": "Mã độc Stuxnet lây lan ban đầu qua đường nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Email lừa đảo"
+      },
+      {
+        "id": "B",
+        "text": "USB (ổ cứng di động)"
+      },
+      {
+        "id": "C",
+        "text": "Wi-Fi công cộng"
+      },
+      {
+        "id": "D",
+        "text": "Tin nhắn SMS"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "USB (ổ cứng di động)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 166,
+    "clo": "CLO4.2",
+    "question": "Quy chuẩn QCVN 135:2024/BTTTT yêu cầu gì về mật khẩu mặc định của Camera?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Có thể giữ nguyên mãi mãi"
+      },
+      {
+        "id": "B",
+        "text": "Phải yêu cầu người dùng thay đổi ngay khi kích hoạt lần đầu"
+      },
+      {
+        "id": "C",
+        "text": "Phải là \"123456\""
+      },
+      {
+        "id": "D",
+        "text": "Không cần đặt mật khẩu"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Phải yêu cầu người dùng thay đổi ngay khi kích hoạt lần đầu",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 167,
+    "clo": "CLO4.2",
+    "question": "\"Vi phân đoạn mạng\" (Micro-segmentation) giúp gì trong bảo mật IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giúp mạng chạy nhanh hơn"
+      },
+      {
+        "id": "B",
+        "text": "Ngăn chặn kẻ tấn công di chuyển ngang (lateral movement) từ thiết bị IoT sang các hệ thống quan trọng khác"
+      },
+      {
+        "id": "C",
+        "text": "Tiết kiệm địa chỉ IP"
+      },
+      {
+        "id": "D",
+        "text": "Giảm chi phí phần cứng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Ngăn chặn kẻ tấn công di chuyển ngang (lateral movement) từ thiết bị IoT sang các hệ thống quan trọng khác",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 168,
+    "clo": "CLO4.2",
+    "question": "TPM (Trusted Platform Module) là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Một phần mềm diệt virus"
+      },
+      {
+        "id": "B",
+        "text": "Một chip bảo mật phần cứng dùng để lưu trữ khóa mã hóa an toàn"
+      },
+      {
+        "id": "C",
+        "text": "Một giao thức mạng"
+      },
+      {
+        "id": "D",
+        "text": "Một loại cảm biến nhiệt độ"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Một chip bảo mật phần cứng dùng để lưu trữ khóa mã hóa an toàn",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 169,
+    "clo": "CLO4.2",
+    "question": "Tấn công \"Sleep Deprivation\" (Làm cạn kiệt năng lượng) hoạt động ra sao?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ngắt nguồn điện của thiết bị"
+      },
+      {
+        "id": "B",
+        "text": "Gửi liên tục các yêu cầu giả mạo buộc thiết bị phải xử lý, ngăn không cho thiết bị chuyển sang chế độ ngủ"
+      },
+      {
+        "id": "C",
+        "text": "Làm hỏng pin vật lý"
+      },
+      {
+        "id": "D",
+        "text": "Tắt màn hình thiết bị"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Gửi liên tục các yêu cầu giả mạo buộc thiết bị phải xử lý, ngăn không cho thiết bị chuyển sang chế độ ngủ",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 170,
+    "clo": "CLO4.3",
+    "question": "Tấn công kênh kề (Side-Channel Attack) loại SPA (Simple Power Analysis) dựa trên nguyên lý nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Phân tích mã nguồn phần mềm"
+      },
+      {
+        "id": "B",
+        "text": "Quan sát trực quan biểu đồ tiêu thụ điện năng để đoán khóa mật mã"
+      },
+      {
+        "id": "C",
+        "text": "Đo thời gian phản hồi của mạng"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng sóng vô tuyến để gây nhiễu"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quan sát trực quan biểu đồ tiêu thụ điện năng để đoán khóa mật mã",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 171,
+    "clo": "CLO4.3",
+    "question": "Trong tấn công định tuyến \"Sinkhole\", nút độc hại làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tạo ra một đường hầm bí mật"
+      },
+      {
+        "id": "B",
+        "text": "Quảng bá thông tin định tuyến sai lệch để thu hút mọi luồng dữ liệu về phía nó"
+      },
+      {
+        "id": "C",
+        "text": "Giả mạo nhiều danh tính cùng lúc"
+      },
+      {
+        "id": "D",
+        "text": "Tắt nguồn các nút lân cận"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quảng bá thông tin định tuyến sai lệch để thu hút mọi luồng dữ liệu về phía nó",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 172,
+    "clo": "CLO4.3",
+    "question": "Sự khác biệt chính giữa \"Sinkhole Attack\" và \"Wormhole Attack\" là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sinkhole cần 1 nút, Wormhole cần ít nhất 2 nút tạo đường hầm"
+      },
+      {
+        "id": "B",
+        "text": "Sinkhole tấn công vật lý, Wormhole tấn công mạng"
+      },
+      {
+        "id": "C",
+        "text": "Sinkhole dùng để DDoS, Wormhole dùng để đào tiền ảo"
+      },
+      {
+        "id": "D",
+        "text": "Không có sự khác biệt"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Sinkhole cần 1 nút, Wormhole cần ít nhất 2 nút tạo đường hầm",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 173,
+    "clo": "CLO4.3",
+    "question": "Giao diện JTAG/UART trên bo mạch thiết bị IoT thường bị tin tặc khai thác để làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sạc pin cho thiết bị"
+      },
+      {
+        "id": "B",
+        "text": "Truy cập trực tiếp vào firmware và bộ nhớ để trích xuất dữ liệu hoặc thay đổi cấu hình (Hardware Tampering)"
+      },
+      {
+        "id": "C",
+        "text": "Kết nối màn hình ngoài"
+      },
+      {
+        "id": "D",
+        "text": "Tăng sóng Wi-Fi"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Truy cập trực tiếp vào firmware và bộ nhớ để trích xuất dữ liệu hoặc thay đổi cấu hình (Hardware Tampering)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 174,
+    "clo": "CLO4.3",
+    "question": "\"Sybil Attack\" nguy hiểm đối với các mạng IoT sử dụng cơ chế gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Cơ chế mã hóa AES"
+      },
+      {
+        "id": "B",
+        "text": "Cơ chế bỏ phiếu (voting) hoặc định tuyến đa đường"
+      },
+      {
+        "id": "C",
+        "text": "Cơ chế nén dữ liệu"
+      },
+      {
+        "id": "D",
+        "text": "Cơ chế cấp nguồn qua Ethernet"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Cơ chế bỏ phiếu (voting) hoặc định tuyến đa đường",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 175,
+    "clo": "CLO4.3",
+    "question": "Vụ tấn công vào nhà cung cấp camera Verkada lộ ra điểm yếu nào trong quản lý?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lỗ hổng trong thuật toán mã hóa video"
+      },
+      {
+        "id": "B",
+        "text": "Quản lý quyền truy cập tập trung lỏng lẻo (Super Admin account)"
+      },
+      {
+        "id": "C",
+        "text": "Camera bị hỏng phần cứng"
+      },
+      {
+        "id": "D",
+        "text": "Mạng lưới bị cắt cáp quang"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quản lý quyền truy cập tập trung lỏng lẻo (Super Admin account)",
+    "confidence": 0.8,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 176,
+    "clo": "CLO4.3",
+    "question": "Theo QCVN 135:2024/BTTTT, tính năng \"Secure Wipe\" (Xóa dữ liệu an toàn) dùng để làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Xóa bụi bẩn trên ống kính camera"
+      },
+      {
+        "id": "B",
+        "text": "Đảm bảo dữ liệu người dùng không thể khôi phục khi chuyển nhượng hoặc thải bỏ thiết bị"
+      },
+      {
+        "id": "C",
+        "text": "Xóa video cũ để tiết kiệm thẻ nhớ"
+      },
+      {
+        "id": "D",
+        "text": "Xóa virus tự động"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Xóa bụi bẩn trên ống kính camera",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 177,
+    "clo": "CLO4.3",
+    "question": "Kỹ thuật DPA (Differential Power Analysis) mạnh hơn SPA ở điểm nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Dùng ít năng lượng hơn"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng thống kê trên hàng ngàn mẫu đo để tìm mối tương quan, khôi phục khóa ngay cả khi có nhiễu"
+      },
+      {
+        "id": "C",
+        "text": "Thực hiện nhanh hơn"
+      },
+      {
+        "id": "D",
+        "text": "Không cần tiếp xúc vật lý"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng thống kê trên hàng ngàn mẫu đo để tìm mối tương quan, khôi phục khóa ngay cả khi có nhiễu",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 178,
+    "clo": "CLO4.3",
+    "question": "Tại sao giao thức RPL (IPv6 Routing Protocol for Low-Power and Lossy Networks) lại dễ bị tấn công định tuyến?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó không hỗ trợ IP"
+      },
+      {
+        "id": "B",
+        "text": "Vì nó thường ưu tiên tối ưu hóa năng lượng và hiệu suất hơn là các cơ chế xác thực bảo mật phức tạp"
+      },
+      {
+        "id": "C",
+        "text": "Vì nó chỉ chạy trên cáp đồng"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó do hacker tạo ra"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì nó thường ưu tiên tối ưu hóa năng lượng và hiệu suất hơn là các cơ chế xác thực bảo mật phức tạp",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 179,
+    "clo": "CLO4.3",
+    "question": "Command Injection khác SQL Injection ở điểm nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Command Injection tấn công vào hệ điều hành (Shell), SQL Injection tấn công vào cơ sở dữ liệu"
+      },
+      {
+        "id": "B",
+        "text": "Command Injection dùng chuột, SQL Injection dùng bàn phím"
+      },
+      {
+        "id": "C",
+        "text": "Command Injection chỉ xảy ra trên Windows"
+      },
+      {
+        "id": "D",
+        "text": "Không có gì khác nhau"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Command Injection tấn công vào hệ điều hành (Shell), SQL Injection tấn công vào cơ sở dữ liệu",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 180,
+    "clo": "CLO4.3",
+    "question": "Botnet BadBox 2.0 (2024-2025) nhắm vào loại thiết bị nào là chủ yếu?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Máy tính xách tay cao cấp"
+      },
+      {
+        "id": "B",
+        "text": "Android TV Box giá rẻ và Router không rõ nguồn gốc"
+      },
+      {
+        "id": "C",
+        "text": "Máy chủ của chính phủ"
+      },
+      {
+        "id": "D",
+        "text": "Điện thoại iPhone"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Android TV Box giá rẻ và Router không rõ nguồn gốc",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 181,
+    "clo": "CLO4.3",
+    "question": "\"Root of Trust\" (RoT) trong bảo mật phần cứng đảm bảo điều gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết bị luôn có kết nối Internet"
+      },
+      {
+        "id": "B",
+        "text": "Có một điểm xuất phát tin cậy bất biến (thường là trong chip) để xác thực toàn bộ chuỗi khởi động và phần mềm sau đó"
+      },
+      {
+        "id": "C",
+        "text": "Người dùng có quyền Root thiết bị"
+      },
+      {
+        "id": "D",
+        "text": "Dữ liệu luôn được sao lưu"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Có một điểm xuất phát tin cậy bất biến (thường là trong chip) để xác thực toàn bộ chuỗi khởi động và phần mềm sau đó",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 182,
+    "clo": "CLO4.4",
+    "question": "Chiến lược \"Zero Trust\" áp dụng cho IoT đòi hỏi nguyên tắc cốt lõi nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tin tưởng tuyệt đối các thiết bị trong mạng nội bộ (LAN)"
+      },
+      {
+        "id": "B",
+        "text": "\"Không tin bất cứ ai, luôn luôn xác minh\" - Xác thực mọi thiết bị, mọi kết nối dù ở trong hay ngoài mạng"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ tin tưởng thiết bị của hãng nổi tiếng"
+      },
+      {
+        "id": "D",
+        "text": "Không sử dụng tường lửa"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "\"Không tin bất cứ ai, luôn luôn xác minh\" - Xác thực mọi thiết bị, mọi kết nối dù ở trong hay ngoài mạng",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 183,
+    "clo": "CLO4.4",
+    "question": "Trong bối cảnh QCVN 135:2024, lộ trình bắt buộc tuân thủ đối với thiết bị nhập khẩu là khi nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Đã áp dụng từ năm 2020"
+      },
+      {
+        "id": "B",
+        "text": "Bắt đầu kiểm định từ 15/02/2025 và bắt buộc hoàn toàn từ 01/01/2026"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ khuyến khích, không bắt buộc"
+      },
+      {
+        "id": "D",
+        "text": "Bắt đầu từ năm 2030"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Bắt đầu kiểm định từ 15/02/2025 và bắt buộc hoàn toàn từ 01/01/2026",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 184,
+    "clo": "CLO4.4",
+    "question": "Để chống lại tấn công kênh kề (SCA) về thời gian (Timing Attacks), giải pháp lập trình nào là hiệu quả nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tăng tốc độ CPU"
+      },
+      {
+        "id": "B",
+        "text": "Viết thuật toán thực thi trong thời gian hằng số (Constant-time algorithms) bất kể dữ liệu đầu vào"
+      },
+      {
+        "id": "C",
+        "text": "Thêm lệnh chờ (sleep) ngẫu nhiên"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng ngôn ngữ Python"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Viết thuật toán thực thi trong thời gian hằng số (Constant-time algorithms) bất kể dữ liệu đầu vào",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 185,
+    "clo": "CLO4.4",
+    "question": "\"Defense in Depth\" (Phòng thủ chiều sâu) cho hệ sinh thái IoT bao gồm những lớp nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ cần cài phần mềm diệt virus"
+      },
+      {
+        "id": "B",
+        "text": "Kết hợp bảo mật thiết bị (Hardening), bảo mật mạng (Segmentation), bảo mật đám mây và quy trình quản lý"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ cần tường lửa mạnh"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ cần mã hóa dữ liệu"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Kết hợp bảo mật thiết bị (Hardening), bảo mật mạng (Segmentation), bảo mật đám mây và quy trình quản lý",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 186,
+    "clo": "CLO4.4",
+    "question": "Tại sao tấn công vào chuỗi cung ứng (Supply Chain Attack) như trường hợp sử dụng thư viện Log4j lại gây hậu quả nghiêm trọng cho IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì thiết bị IoT rất khó cập nhật miếng vá (patch) đồng loạt trên diện rộng"
+      },
+      {
+        "id": "B",
+        "text": "Vì Log4j chỉ chạy trên máy chủ"
+      },
+      {
+        "id": "C",
+        "text": "Vì thiết bị IoT không dùng Java"
+      },
+      {
+        "id": "D",
+        "text": "Vì hacker không thích tấn công phần mềm"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Vì thiết bị IoT rất khó cập nhật miếng vá (patch) đồng loạt trên diện rộng",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 187,
+    "clo": "CLO4.4",
+    "question": "Kỹ thuật \"Selective Forwarding\" (Chuyển tiếp chọn lọc) tinh vi hơn \"Blackhole\" ở điểm nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nó hủy toàn bộ gói tin nên dễ bị phát hiện"
+      },
+      {
+        "id": "B",
+        "text": "Nó vẫn chuyển tiếp gói tin thường nhưng âm thầm hủy các gói tin quan trọng (như báo động), giúp che giấu hành vi độc hại lâu hơn"
+      },
+      {
+        "id": "C",
+        "text": "Nó tấn công vào lớp vật lý"
+      },
+      {
+        "id": "D",
+        "text": "Nó sử dụng nhiều năng lượng hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Nó vẫn chuyển tiếp gói tin thường nhưng âm thầm hủy các gói tin quan trọng (như báo động), giúp che giấu hành vi độc hại lâu hơn",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 188,
+    "clo": "CLO4.4",
+    "question": "Deepfake và AI đe dọa an ninh IoT năm 2025 theo cách mới nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "AI tự động lập trình firmware an toàn"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng dữ liệu hình ảnh/giọng nói thu thập từ IoT bị hack để tạo kịch bản lừa đảo xác thực sinh trắc học"
+      },
+      {
+        "id": "C",
+        "text": "Làm giảm băng thông mạng"
+      },
+      {
+        "id": "D",
+        "text": "Giúp camera chụp ảnh đẹp hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng dữ liệu hình ảnh/giọng nói thu thập từ IoT bị hack để tạo kịch bản lừa đảo xác thực sinh trắc học",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 189,
+    "clo": "CLO4.4",
+    "question": "Một hệ thống IoT y tế (IoMT) sử dụng hệ điều hành cũ không còn hỗ trợ (như Windows 7) vi phạm nguyên tắc nào trong OWASP Top 10?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Weak Passwords"
+      },
+      {
+        "id": "B",
+        "text": "Use of Insecure or Outdated Components"
+      },
+      {
+        "id": "C",
+        "text": "Lack of Physical Hardening"
+      },
+      {
+        "id": "D",
+        "text": "Insecure Data Transfer"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Use of Insecure or Outdated Components",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 190,
+    "clo": "CLO4.4",
+    "question": "Trong kiến trúc bảo mật, tại sao việc \"Xác thực liên tục\" (Continuous Authentication) lại khó triển khai trên IoT thụ động (passive sensors)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Do hạn chế về năng lượng và tài nguyên tính toán"
+      },
+      {
+        "id": "B",
+        "text": "Do cảm biến không có màn hình"
+      },
+      {
+        "id": "C",
+        "text": "Do cảm biến quá nhỏ"
+      },
+      {
+        "id": "D",
+        "text": "Do không có bàn phím"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Do hạn chế về năng lượng và tài nguyên tính toán",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 191,
+    "clo": "CLO4.4",
+    "question": "Để ngăn chặn tấn công \"Firmware Implant\", cơ chế nào là quan trọng nhất ở giai đoạn sản xuất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sử dụng vỏ nhựa cứng"
+      },
+      {
+        "id": "B",
+        "text": "Khóa các cổng debug (JTAG/UART) và thiết lập eFuse (cầu chì điện tử) để ngăn ghi đè bộ nhớ"
+      },
+      {
+        "id": "C",
+        "text": "Dán tem bảo hành"
+      },
+      {
+        "id": "D",
+        "text": "Sơn màu đen cho thiết bị"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Khóa các cổng debug (JTAG/UART) và thiết lập eFuse (cầu chì điện tử) để ngăn ghi đè bộ nhớ",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 192,
+    "clo": "CLO4.4",
+    "question": "Ransomware tấn công vào IoT (như DeadBolt nhắm vào NAS) khác với Ransomware trên PC ở điểm nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Không đòi tiền"
+      },
+      {
+        "id": "B",
+        "text": "Thường nhắm vào việc khóa quyền truy cập thiết bị hoặc xóa dữ liệu firmware thay vì chỉ mã hóa file người dùng"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ tấn công vào ban đêm"
+      },
+      {
+        "id": "D",
+        "text": "Dễ giải mã hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thường nhắm vào việc khóa quyền truy cập thiết bị hoặc xóa dữ liệu firmware thay vì chỉ mã hóa file người dùng",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 193,
+    "clo": "CLO4.4",
+    "question": "Mô hình \"Ransomware-as-a-Service\" (RaaS) ảnh hưởng thế nào đến tình hình an ninh mạng Việt Nam 2024?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giảm số lượng vụ tấn công"
+      },
+      {
+        "id": "B",
+        "text": "Giúp các cuộc tấn công trở nên dễ dàng hơn, mở rộng phạm vi và mức độ nguy hiểm do chuyên môn hóa tội phạm"
+      },
+      {
+        "id": "C",
+        "text": "Chỉ ảnh hưởng đến doanh nghiệp nước ngoài"
+      },
+      {
+        "id": "D",
+        "text": "Giúp doanh nghiệp bảo mật tốt hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Giúp các cuộc tấn công trở nên dễ dàng hơn, mở rộng phạm vi và mức độ nguy hiểm do chuyên môn hóa tội phạm",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 194,
+    "clo": "CLO4.4",
+    "question": "Yếu tố nào là thách thức lớn nhất trong việc chuẩn hóa bảo mật IoT toàn cầu (Heterogeneity)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Sự đa dạng quá lớn về phần cứng, hệ điều hành và giao thức kết nối khiến không thể áp dụng một giải pháp duy nhất"
+      },
+      {
+        "id": "B",
+        "text": "Giá thành chip quá cao"
+      },
+      {
+        "id": "C",
+        "text": "Thiếu nhân lực IT"
+      },
+      {
+        "id": "D",
+        "text": "Internet quá chậm"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Sự đa dạng quá lớn về phần cứng, hệ điều hành và giao thức kết nối khiến không thể áp dụng một giải pháp duy nhất",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 195,
+    "clo": "CLO5.1",
+    "question": "Bước đầu tiên quan trọng nhất trong quy trình thiết kế hệ thống IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Mua linh kiện phần cứng"
+      },
+      {
+        "id": "B",
+        "text": "Viết mã nguồn firmware"
+      },
+      {
+        "id": "C",
+        "text": "Xác định mục đích và đặc tả yêu cầu"
+      },
+      {
+        "id": "D",
+        "text": "Thiết kế giao diện Dashboard"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Xác định mục đích và đặc tả yêu cầu",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 196,
+    "clo": "CLO5.1",
+    "question": "\"Thực thể Ảo\" (Virtual Entity) trong mô hình miền IoT được hiểu là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Một cảm biến vật lý"
+      },
+      {
+        "id": "B",
+        "text": "Đại diện kỹ thuật số của thực thể vật lý trong không gian số"
+      },
+      {
+        "id": "C",
+        "text": "Một robot ảo"
+      },
+      {
+        "id": "D",
+        "text": "Môi trường giả lập trên máy tính"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Đại diện kỹ thuật số của thực thể vật lý trong không gian số",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 197,
+    "clo": "CLO5.1",
+    "question": "Kiến trúc IoT cơ bản nhất bao gồm bao nhiêu lớp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3 lớp"
+      },
+      {
+        "id": "B",
+        "text": "5 lớp"
+      },
+      {
+        "id": "C",
+        "text": "7 lớp"
+      },
+      {
+        "id": "D",
+        "text": "2 lớp"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "3 lớp",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 198,
+    "clo": "CLO5.1",
+    "question": "Vi điều khiển (MCU) nào sau đây tích hợp sẵn Wi-Fi và Bluetooth?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Arduino Uno (ATmega328P)"
+      },
+      {
+        "id": "B",
+        "text": "STM32F103"
+      },
+      {
+        "id": "C",
+        "text": "ESP32"
+      },
+      {
+        "id": "D",
+        "text": "PIC16F877A"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "ESP32",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 199,
+    "clo": "CLO5.1",
+    "question": "MQTT là viết tắt của cụm từ gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Message Queuing Telemetry Transport"
+      },
+      {
+        "id": "B",
+        "text": "Message Query Transmission Type"
+      },
+      {
+        "id": "C",
+        "text": "Mobile Quality Text Transfer"
+      },
+      {
+        "id": "D",
+        "text": "Machine Quest Time Transport"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Message Queuing Telemetry Transport",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 200,
+    "clo": "CLO5.1",
+    "question": "Đơn vị năng lượng thường dùng để đo dung lượng pin cho thiết bị IoT là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Watts (W)"
+      },
+      {
+        "id": "B",
+        "text": "Volts (V)"
+      },
+      {
+        "id": "C",
+        "text": "Milliampere-giờ (mAh)"
+      },
+      {
+        "id": "D",
+        "text": "Hertz (Hz)"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Milliampere-giờ (mAh)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 201,
+    "clo": "CLO5.1",
+    "question": "Khái niệm \"Edge Computing\" (Điện toán Biên) nghĩa là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Xử lý dữ liệu hoàn toàn trên Cloud"
+      },
+      {
+        "id": "B",
+        "text": "Xử lý dữ liệu ngay tại vị trí thu thập (thiết bị hoặc gateway)"
+      },
+      {
+        "id": "C",
+        "text": "Xử lý dữ liệu thủ công bởi con người"
+      },
+      {
+        "id": "D",
+        "text": "Xử lý dữ liệu tại trung tâm dữ liệu quốc gia"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Xử lý dữ liệu ngay tại vị trí thu thập (thiết bị hoặc gateway)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 202,
+    "clo": "CLO5.1",
+    "question": "Để thiết bị IoT giao tiếp xa hàng km mà tiết kiệm pin, công nghệ nào phù hợp nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Wi-Fi"
+      },
+      {
+        "id": "B",
+        "text": "Bluetooth"
+      },
+      {
+        "id": "C",
+        "text": "LoRaWAN"
+      },
+      {
+        "id": "D",
+        "text": "NFC"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "LoRaWAN",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 203,
+    "clo": "CLO5.1",
+    "question": "\"Dashboard\" trong hệ thống IoT dùng để làm gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lập trình vi điều khiển"
+      },
+      {
+        "id": "B",
+        "text": "Trực quan hóa dữ liệu và giám sát hệ thống"
+      },
+      {
+        "id": "C",
+        "text": "Thiết kế mạch in"
+      },
+      {
+        "id": "D",
+        "text": "Mã hóa dữ liệu"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Trực quan hóa dữ liệu và giám sát hệ thống",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 204,
+    "clo": "CLO5.1",
+    "question": "Loại bộ nhớ nào trên ESP32 dùng để lưu trữ dữ liệu khi mất điện (non- volatile)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "RAM"
+      },
+      {
+        "id": "B",
+        "text": "Flash"
+      },
+      {
+        "id": "C",
+        "text": "Cache"
+      },
+      {
+        "id": "D",
+        "text": "Register"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Flash",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 205,
+    "clo": "CLO5.1",
+    "question": "Giao thức nào sử dụng mô hình Request/Response tương tự HTTP nhưng nhẹ hơn?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "MQTT"
+      },
+      {
+        "id": "B",
+        "text": "CoAP"
+      },
+      {
+        "id": "C",
+        "text": "FTP"
+      },
+      {
+        "id": "D",
+        "text": "SSH"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "CoAP",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 206,
+    "clo": "CLO5.2",
+    "question": "Tại sao mô hình kiến trúc 5 lớp được ưu tiên hơn mô hình 3 lớp trong các dự án IoT phức tạp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó rẻ hơn"
+      },
+      {
+        "id": "B",
+        "text": "Vì nó bổ sung lớp Kinh doanh (Business) và Middleware để xử lý dữ liệu lớn và logic nghiệp vụ"
+      },
+      {
+        "id": "C",
+        "text": "Vì nó sử dụng ít băng thông hơn"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó không cần kết nối Internet"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì nó bổ sung lớp Kinh doanh (Business) và Middleware để xử lý dữ liệu lớn và logic nghiệp vụ",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 207,
+    "clo": "CLO5.2",
+    "question": "Sự khác biệt chính về ứng dụng giữa ESP32 và STM32 là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ESP32 mạnh về kết nối không dây, STM32 mạnh về điều khiển công nghiệp và thời gian thực"
+      },
+      {
+        "id": "B",
+        "text": "STM32 có Wi-Fi tích hợp, ESP32 thì không"
+      },
+      {
+        "id": "C",
+        "text": "ESP32 chỉ dùng cho công nghiệp nặng, STM32 dùng cho đồ chơi"
+      },
+      {
+        "id": "D",
+        "text": "Không có sự khác biệt"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "ESP32 mạnh về kết nối không dây, STM32 mạnh về điều khiển công nghiệp và thời gian thực",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 208,
+    "clo": "CLO5.2",
+    "question": "Trong mô hình Fog Computing, \"Fog Node\" thường nằm ở đâu?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Trên cảm biến"
+      },
+      {
+        "id": "B",
+        "text": "Tại trung tâm dữ liệu Cloud"
+      },
+      {
+        "id": "C",
+        "text": "Ở lớp trung gian (Router, Gateway) giữa thiết bị biên và Cloud"
+      },
+      {
+        "id": "D",
+        "text": "Bên ngoài mạng Internet"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Ở lớp trung gian (Router, Gateway) giữa thiết bị biên và Cloud",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 209,
+    "clo": "CLO5.2",
+    "question": "Tại sao vỏ hộp kim loại (nhôm/thép) lại gây khó khăn cho thiết bị IoT không dây?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì chúng quá nặng"
+      },
+      {
+        "id": "B",
+        "text": "Vì chúng tạo ra lồng Faraday chắn sóng vô tuyến (RF)"
+      },
+      {
+        "id": "C",
+        "text": "Vì chúng tản nhiệt kém"
+      },
+      {
+        "id": "D",
+        "text": "Vì chúng dễ vỡ"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì chúng tạo ra lồng Faraday chắn sóng vô tuyến (RF)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 210,
+    "clo": "CLO5.2",
+    "question": "Chế độ \"Deep Sleep\" giúp tiết kiệm năng lượng bằng cách nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Giảm độ sáng đèn LED"
+      },
+      {
+        "id": "B",
+        "text": "Tắt CPU chính và hầu hết các ngoại vi, chỉ giữ lại RTC"
+      },
+      {
+        "id": "C",
+        "text": "Ngắt kết nối Internet nhưng vẫn chạy CPU hết công suất"
+      },
+      {
+        "id": "D",
+        "text": "Tăng tốc độ xử lý để hoàn thành việc nhanh hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Tắt CPU chính và hầu hết các ngoại vi, chỉ giữ lại RTC",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 211,
+    "clo": "CLO5.2",
+    "question": "Giao thức MQTT chạy trên nền tảng giao thức vận chuyển nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "UDP"
+      },
+      {
+        "id": "B",
+        "text": "TCP"
+      },
+      {
+        "id": "C",
+        "text": "ICMP"
+      },
+      {
+        "id": "D",
+        "text": "HTTP"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "TCP",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 212,
+    "clo": "CLO5.2",
+    "question": "Pin Lithium Thionyl Chloride (Li-SOCl2) được ưa chuộng cho cảm biến ngoài trời vì lý do gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Có thể sạc lại nhiều lần"
+      },
+      {
+        "id": "B",
+        "text": "Giá thành rẻ nhất"
+      },
+      {
+        "id": "C",
+        "text": "Dòng tự xả cực thấp và hoạt động tốt ở dải nhiệt độ rộng"
+      },
+      {
+        "id": "D",
+        "text": "Kích thước rất nhỏ"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Dòng tự xả cực thấp và hoạt động tốt ở dải nhiệt độ rộng",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 213,
+    "clo": "CLO5.2",
+    "question": "\"Provisioning\" trong IoT là quá trình gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nạp năng lượng cho pin"
+      },
+      {
+        "id": "B",
+        "text": "Đăng ký và xác thực thiết bị mới vào hệ thống (cấp ID, chứng chỉ)"
+      },
+      {
+        "id": "C",
+        "text": "Cập nhật phần mềm"
+      },
+      {
+        "id": "D",
+        "text": "Thay thế cảm biến hỏng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Đăng ký và xác thực thiết bị mới vào hệ thống (cấp ID, chứng chỉ)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 214,
+    "clo": "CLO5.2",
+    "question": "Van thở (Vents) trên vỏ hộp thiết bị ngoài trời có tác dụng gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Để tản nhiệt cho CPU"
+      },
+      {
+        "id": "B",
+        "text": "Cân bằng áp suất để ngăn hơi ẩm bị hút vào trong, đồng thời chặn nước"
+      },
+      {
+        "id": "C",
+        "text": "Để luồn dây điện ra ngoài"
+      },
+      {
+        "id": "D",
+        "text": "Để thu âm thanh"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Cân bằng áp suất để ngăn hơi ẩm bị hút vào trong, đồng thời chặn nước",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 215,
+    "clo": "CLO5.2",
+    "question": "AWS IoT Core sử dụng cơ chế bảo mật nào để xác thực thiết bị?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tài khoản và mật khẩu thông thường"
+      },
+      {
+        "id": "B",
+        "text": "Chứng chỉ số X.509 hai chiều (Mutual TLS)"
+      },
+      {
+        "id": "C",
+        "text": "Địa chỉ MAC"
+      },
+      {
+        "id": "D",
+        "text": "Số điện thoại"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Chứng chỉ số X.509 hai chiều (Mutual TLS)",
+    "confidence": 0.95,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 216,
+    "clo": "CLO5.2",
+    "question": "PlatformIO khác biệt gì so với Arduino IDE truyền thống?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chỉ hỗ trợ chip ESP32"
+      },
+      {
+        "id": "B",
+        "text": "Không có giao diện đồ họa"
+      },
+      {
+        "id": "C",
+        "text": "Hỗ trợ quản lý thư viện thông minh, debug mạnh mẽ và tích hợp trên VS Code"
+      },
+      {
+        "id": "D",
+        "text": "Phải trả phí sử dụng"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Hỗ trợ quản lý thư viện thông minh, debug mạnh mẽ và tích hợp trên VS Code",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 217,
+    "clo": "CLO5.2",
+    "question": "Khi nào nên sử dụng Raspberry Pi làm Gateway thay vì vi điều khiển?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Khi cần tiết kiệm pin tối đa"
+      },
+      {
+        "id": "B",
+        "text": "Khi hệ thống cần chạy Linux, xử lý đa luồng phức tạp hoặc container (Docker)"
+      },
+      {
+        "id": "C",
+        "text": "Khi chỉ cần đọc 1 cảm biến nhiệt độ"
+      },
+      {
+        "id": "D",
+        "text": "Khi giá thành là yếu tố quan trọng nhất"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Khi hệ thống cần chạy Linux, xử lý đa luồng phức tạp hoặc container (Docker)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 218,
+    "clo": "CLO5.3",
+    "question": "Trong kiến trúc 5 lớp, lớp nào chịu trách nhiệm chuyển đổi dữ liệu thô thành thông tin có giá trị cho việc ra quyết định?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Perception Layer"
+      },
+      {
+        "id": "B",
+        "text": "Network Layer"
+      },
+      {
+        "id": "C",
+        "text": "Business Layer"
+      },
+      {
+        "id": "D",
+        "text": "Middleware Layer"
+      }
+    ],
+    "correct_choice": "D",
+    "correct_answer": "Middleware Layer",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 219,
+    "clo": "CLO5.3",
+    "question": "Tại sao CoAP sử dụng UDP lại phù hợp cho mạng lưới cảm biến diện rộng hơn MQTT sử dụng TCP?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "UDP tin cậy hơn TCP"
+      },
+      {
+        "id": "B",
+        "text": "UDP có overhead (gói tin phụ trợ) nhỏ hơn, giúp tiết kiệm băng thông và năng lượng cho thiết bị hay thức/ngủ"
+      },
+      {
+        "id": "C",
+        "text": "UDP hỗ trợ mã hóa tốt hơn"
+      },
+      {
+        "id": "D",
+        "text": "CoAP không cần địa chỉ IP"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "UDP có overhead (gói tin phụ trợ) nhỏ hơn, giúp tiết kiệm băng thông và năng lượng cho thiết bị hay thức/ngủ",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 220,
+    "clo": "CLO5.3",
+    "question": "Kỹ thuật \"Duty Cycling\" 1% nghĩa là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết bị hoạt động liên tục nhưng chỉ dùng 1% công suất"
+      },
+      {
+        "id": "B",
+        "text": "Thiết bị thức 1% thời gian chu kỳ và ngủ 99% thời gian còn lại"
+      },
+      {
+        "id": "C",
+        "text": "Thiết bị chỉ gửi 1% lượng dữ liệu thu được"
+      },
+      {
+        "id": "D",
+        "text": "Pin sẽ hỏng sau 1% thời gian sử dụng"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Thiết bị thức 1% thời gian chu kỳ và ngủ 99% thời gian còn lại",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 221,
+    "clo": "CLO5.3",
+    "question": "Để bảo mật dữ liệu lưu trữ (Data at Rest) trên Flash của ESP32, giải pháp phần cứng nào được khuyến nghị?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lưu dưới dạng file text ẩn"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng Flash Encryption với thuật toán AES-XTS và khóa lưu trong eFuse"
+      },
+      {
+        "id": "C",
+        "text": "Đổi đuôi file để hacker không nhận ra"
+      },
+      {
+        "id": "D",
+        "text": "Chỉ lưu dữ liệu trên RAM"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng Flash Encryption với thuật toán AES-XTS và khóa lưu trong eFuse",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 222,
+    "clo": "CLO5.3",
+    "question": "Một hệ thống cần phản hồi điều khiển Robot trong thời gian dưới 10ms. Kiến trúc nào phù hợp nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Gửi dữ liệu lên AWS Cloud xử lý rồi trả về"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng Fog Computing tại Gateway cục bộ"
+      },
+      {
+        "id": "C",
+        "text": "Xử lý trực tiếp tại biên (Edge) trên vi điều khiển của Robot"
+      },
+      {
+        "id": "D",
+        "text": "Gửi qua mạng 3G"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Xử lý trực tiếp tại biên (Edge) trên vi điều khiển của Robot",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 223,
+    "clo": "CLO5.3",
+    "question": "Vấn đề \"Last Will and Testament\" (LWT) trong MQTT giải quyết tình huống nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Thiết bị hết pin"
+      },
+      {
+        "id": "B",
+        "text": "Thiết bị gửi di chúc trước khi hỏng"
+      },
+      {
+        "id": "C",
+        "text": "Broker thông báo cho các Subscriber khi thiết bị ngắt kết nối đột ngột"
+      },
+      {
+        "id": "D",
+        "text": "Lưu dữ liệu cuối cùng vào database"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "Broker thông báo cho các Subscriber khi thiết bị ngắt kết nối đột ngột",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 224,
+    "clo": "CLO5.3",
+    "question": "Trong quy trình OTA (Update Firmware Over-The-Air), cơ chế \"Rollback\" có tác dụng gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Quay lại phiên bản firmware cũ nếu bản mới bị lỗi hoặc không khởi động được"
+      },
+      {
+        "id": "B",
+        "text": "Xóa toàn bộ dữ liệu người dùng"
+      },
+      {
+        "id": "C",
+        "text": "Tải lại bản cập nhật từ đầu"
+      },
+      {
+        "id": "D",
+        "text": "Gửi báo cáo lỗi về server"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Quay lại phiên bản firmware cũ nếu bản mới bị lỗi hoặc không khởi động được",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 225,
+    "clo": "CLO5.3",
+    "question": "Khi tích hợp cảm biến công nghiệp cũ (Modbus RTU) vào hệ thống IoT hiện đại, Gateway cần thực hiện chức năng gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Data Mapping (Ánh xạ dữ liệu) từ thanh ghi Modbus sang định dạng JSON/MQTT"
+      },
+      {
+        "id": "B",
+        "text": "Tăng điện áp cho cảm biến"
+      },
+      {
+        "id": "C",
+        "text": "Thay đổi firmware của cảm biến"
+      },
+      {
+        "id": "D",
+        "text": "Kết nối trực tiếp cảm biến vào Wi-Fi"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Data Mapping (Ánh xạ dữ liệu) từ thanh ghi Modbus sang định dạng JSON/MQTT",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 226,
+    "clo": "CLO5.3",
+    "question": "Tại sao không nên lưu Private Key trong mã nguồn (hard-coded) của firmware?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó làm tăng dung lượng file firmware"
+      },
+      {
+        "id": "B",
+        "text": "Vì hacker có thể dịch ngược (reverse engineer) firmware để lấy khóa và giả mạo thiết bị"
+      },
+      {
+        "id": "C",
+        "text": "Vì vi điều khiển không đọc được file text"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó làm chậm quá trình khởi động"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì hacker có thể dịch ngược (reverse engineer) firmware để lấy khóa và giả mạo thiết bị",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 227,
+    "clo": "CLO5.3",
+    "question": "Lợi ích chính của việc sử dụng hệ điều hành thời gian thực (FreeRTOS) trên ESP32 so với vòng lặp vô tận (Super Loop) là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Chạy được các ứng dụng Windows"
+      },
+      {
+        "id": "B",
+        "text": "Quản lý đa nhiệm (multitasking) và ưu tiên tác vụ (task scheduling) hiệu quả hơn"
+      },
+      {
+        "id": "C",
+        "text": "Không cần viết code"
+      },
+      {
+        "id": "D",
+        "text": "Tiết kiệm bộ nhớ RAM tuyệt đối"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Quản lý đa nhiệm (multitasking) và ưu tiên tác vụ (task scheduling) hiệu quả hơn",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 228,
+    "clo": "CLO5.3",
+    "question": "Trong thiết kế phần cứng, tại sao cần chú ý đến \"dòng rò\" (leakage current) của tụ điện và LDO khi thiết bị dùng pin?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó gây nóng mạch"
+      },
+      {
+        "id": "B",
+        "text": "Vì nó tiêu tốn năng lượng ngay cả khi thiết bị đang ngủ (Deep Sleep)"
+      },
+      {
+        "id": "C",
+        "text": "Vì nó làm nhiễu sóng Wi-Fi"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó làm tăng giá thành"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì nó tiêu tốn năng lượng ngay cả khi thiết bị đang ngủ (Deep Sleep)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 229,
+    "clo": "CLO5.4",
+    "question": "Một hệ thống giám sát rung động động cơ công nghiệp yêu cầu lấy mẫu 10kHz và phát hiện lỗi ngay lập tức. Giải pháp thiết kế tối ưu nhất là gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Gửi toàn bộ dữ liệu thô (Raw data) 10kHz qua LoRaWAN về Server"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng Edge Computing với vi điều khiển mạnh (như STM32 H7/ESP32) để tính toán FFT tại chỗ, chỉ gửi cảnh báo qua MQTT"
+      },
+      {
+        "id": "C",
+        "text": "Lưu dữ liệu vào thẻ nhớ SD và định kỳ người đến lấy"
+      },
+      {
+        "id": "D",
+        "text": "Gửi dữ liệu qua Wi-Fi lên Cloud để tính toán FFT"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng Edge Computing với vi điều khiển mạnh (như STM32 H7/ESP32) để tính toán FFT tại chỗ, chỉ gửi cảnh báo qua MQTT",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 230,
+    "clo": "CLO5.4",
+    "question": "Tấn công \"Man-in-the-Middle\" (MitM) trong IoT có thể bị ngăn chặn hiệu quả nhất bằng cách nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Ẩn tên mạng Wi-Fi (SSID Hiding)"
+      },
+      {
+        "id": "B",
+        "text": "Sử dụng mã hóa TLS/SSL với xác thực Certificate Pinning hoặc Mutual Auth"
+      },
+      {
+        "id": "C",
+        "text": "Thay đổi mật khẩu thường xuyên"
+      },
+      {
+        "id": "D",
+        "text": "Sử dụng địa chỉ IP tĩnh"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Sử dụng mã hóa TLS/SSL với xác thực Certificate Pinning hoặc Mutual Auth",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 231,
+    "clo": "CLO5.4",
+    "question": "Khi thiết kế mạng LoRaWAN cho một thành phố thông minh (Smart City), yếu tố nào ảnh hưởng lớn nhất đến dung lượng mạng (Capacity)?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Số lượng Gateway và việc phân bổ Spreading Factor (SF)"
+      },
+      {
+        "id": "B",
+        "text": "Dung lượng pin của cảm biến"
+      },
+      {
+        "id": "C",
+        "text": "Loại dữ liệu gửi đi"
+      },
+      {
+        "id": "D",
+        "text": "Màu sắc của thiết bị"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Số lượng Gateway và việc phân bổ Spreading Factor (SF)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 232,
+    "clo": "CLO5.4",
+    "question": "Tại sao việc sử dụng chip bảo mật chuyên dụng (Secure Element như ATECC608) lại an toàn hơn lưu key trong Flash Encryption của MCU?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì nó rẻ hơn"
+      },
+      {
+        "id": "B",
+        "text": "Vì nó cung cấp khả năng chống tấn công vật lý (Tamper resistance) và key không bao giờ rời khỏi chip này (kể cả khi vi xử lý chính bị hack)"
+      },
+      {
+        "id": "C",
+        "text": "Vì nó giúp tăng tốc độ Wi-Fi"
+      },
+      {
+        "id": "D",
+        "text": "Vì nó có dung lượng lưu trữ lớn hơn"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì nó cung cấp khả năng chống tấn công vật lý (Tamper resistance) và key không bao giờ rời khỏi chip này (kể cả khi vi xử lý chính bị hack)",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 233,
+    "clo": "CLO5.4",
+    "question": "Trong mô hình 5 lớp, \"Service Discovery\" (Khám phá dịch vụ) thường nằm ở lớp nào và có vai trò gì?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Perception Layer - Tìm cảm biến"
+      },
+      {
+        "id": "B",
+        "text": "Middleware Layer - Tự động phát hiện và cấu hình các thiết bị/dịch vụ mới tham gia mạng"
+      },
+      {
+        "id": "C",
+        "text": "Business Layer - Tìm kiếm khách hàng"
+      },
+      {
+        "id": "D",
+        "text": "Network Layer - Tìm địa chỉ IP"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Middleware Layer - Tự động phát hiện và cấu hình các thiết bị/dịch vụ mới tham gia mạng",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 234,
+    "clo": "CLO5.4",
+    "question": "Khi lựa chọn anten cho thiết bị IoT vỏ nhựa đặt ngoài trời, loại anten nào cho hiệu suất tốt nhất và ổn định nhất?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "PCB Antenna (Anten in trên mạch)"
+      },
+      {
+        "id": "B",
+        "text": "Chip Antenna (Anten gốm nhỏ)"
+      },
+      {
+        "id": "C",
+        "text": "External Dipole Antenna (Anten râu bên ngoài) có đầu nối IP67"
+      },
+      {
+        "id": "D",
+        "text": "Dây đồng hàn trực tiếp"
+      }
+    ],
+    "correct_choice": "C",
+    "correct_answer": "External Dipole Antenna (Anten râu bên ngoài) có đầu nối IP67",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 235,
+    "clo": "CLO5.4",
+    "question": "Hệ thống phát hiện xâm nhập (IDS) trong IoT Network Layer hoạt động dựa trên nguyên lý nào?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Kiểm tra vân tay người dùng"
+      },
+      {
+        "id": "B",
+        "text": "Giám sát lưu lượng mạng (Traffic analysis) để phát hiện các mẫu hành vi bất thường (Anomaly detection)"
+      },
+      {
+        "id": "C",
+        "text": "Quét virus trên từng thiết bị"
+      },
+      {
+        "id": "D",
+        "text": "Chặn tất cả các cổng kết nối"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Giám sát lưu lượng mạng (Traffic analysis) để phát hiện các mẫu hành vi bất thường (Anomaly detection)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 236,
+    "clo": "CLO5.4",
+    "question": "Một thiết bị IoT bị treo (hang) do lỗi phần mềm. Cơ chế phần cứng nào giúp nó tự phục hồi mà không cần con người can thiệp?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nút Reset vật lý"
+      },
+      {
+        "id": "B",
+        "text": "Watchdog Timer (WDT)"
+      },
+      {
+        "id": "C",
+        "text": "Cầu chì"
+      },
+      {
+        "id": "D",
+        "text": "Đèn báo lỗi"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Watchdog Timer (WDT)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  },
+  {
+    "id": 237,
+    "clo": "CLO5.4",
+    "question": "Trong thiết kế PCB cho IoT, kỹ thuật \"Ground Pouring\" và \"Via Stitching\" có tác dụng gì chính?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Làm đẹp mạch in"
+      },
+      {
+        "id": "B",
+        "text": "Giảm nhiễu điện từ (EMI) và cải thiện tính toàn vẹn tín hiệu (Signal Integrity)"
+      },
+      {
+        "id": "C",
+        "text": "Tiết kiệm dung dịch rửa mạch"
+      },
+      {
+        "id": "D",
+        "text": "Tăng độ dẻo của mạch"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Giảm nhiễu điện từ (EMI) và cải thiện tính toàn vẹn tín hiệu (Signal Integrity)",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 238,
+    "clo": "CLO5.4",
+    "question": "Sự khác biệt giữa mô hình dữ liệu \"Time-series\" (Chuỗi thời gian) và mô hình quan hệ (Relational) trong lưu trữ dữ liệu IoT?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Time-series tối ưu cho việc ghi và truy vấn dữ liệu theo mốc thời gian (timestamp), phù hợp với dữ liệu cảm biến liên tục"
+      },
+      {
+        "id": "B",
+        "text": "Quan hệ tối ưu cho dữ liệu cảm biến"
+      },
+      {
+        "id": "C",
+        "text": "Time-series không hỗ trợ truy vấn SQL"
+      },
+      {
+        "id": "D",
+        "text": "Quan hệ lưu trữ nhanh hơn Time-series"
+      }
+    ],
+    "correct_choice": "A",
+    "correct_answer": "Time-series tối ưu cho việc ghi và truy vấn dữ liệu theo mốc thời gian (timestamp), phù hợp với dữ liệu cảm biến liên tục",
+    "confidence": 0.9,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 239,
+    "clo": "CLO5.4",
+    "question": "Tại sao giao thức HTTP/RESTful thường không được khuyến khích cho các thiết bị IoT chạy pin so với MQTT/CoAP?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Vì HTTP khó lập trình"
+      },
+      {
+        "id": "B",
+        "text": "Vì HTTP có Header lớn (verbose), không giữ kết nối (stateless), gây tốn băng thông và năng lượng thiết lập lại kết nối TCP mỗi lần gửi"
+      },
+      {
+        "id": "C",
+        "text": "Vì HTTP không bảo mật"
+      },
+      {
+        "id": "D",
+        "text": "Vì Cloud không hỗ trợ HTTP"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "Vì HTTP có Header lớn (verbose), không giữ kết nối (stateless), gây tốn băng thông và năng lượng thiết lập lại kết nối TCP mỗi lần gửi",
+    "confidence": 0.85,
+    "answer_source": "rule_keywords"
+  },
+  {
+    "id": 240,
+    "clo": "CLO5.4",
+    "question": "Trong bối cảnh IIoT (IoT Công nghiệp), chuẩn giao tiếp vật lý nào được ưu tiên để chống nhiễu trên đường dây dài?",
+    "choices": [
+      {
+        "id": "A",
+        "text": "I2C"
+      },
+      {
+        "id": "B",
+        "text": "RS-485 (Differential signaling)"
+      },
+      {
+        "id": "C",
+        "text": "SPI"
+      },
+      {
+        "id": "D",
+        "text": "UART (TTL)"
+      }
+    ],
+    "correct_choice": "B",
+    "correct_answer": "RS-485 (Differential signaling)",
+    "confidence": 0.99,
+    "answer_source": "manual"
+  }
+]
