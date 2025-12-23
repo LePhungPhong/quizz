@@ -736,12 +736,14 @@ export default function App() {
                 <div className="absolute bottom-0 w-full bg-white border-t border-slate-100 p-4 flex gap-3 z-10 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
                   <Button
                     variant="ghost"
-                    className="w-14 px-0 bg-slate-600 text-white hover:bg-slate-300"
+                    fullWidth={false}
+                    className="w-14 shrink-0 px-0 bg-slate-600 text-black hover:bg-slate-300"
                     onClick={() => setCurrentQIndex((i) => Math.max(0, i - 1))}
                     disabled={currentQIndex === 0}
                   >
-                    <ChevronLeft size={30} strokeWidth={4} />
+                    <ChevronLeft size={28} strokeWidth={3} />
                   </Button>
+
                   {sessionType === "exam" || answers[currentQIndex] ? (
                     <Button
                       onClick={() =>
@@ -763,7 +765,7 @@ export default function App() {
                       )}
                     </Button>
                   ) : (
-                    <div className="flex-1 flex items-center justify-center text-slate-400 text-sm italic font-medium bg-slate-50 border border-slate-100 rounded-2xl py-3.5 select-none">
+                    <div className="flex-1 min-w-0 flex items-center justify-center whitespace-nowrap text-slate-400 text-sm italic font-medium bg-slate-50 border border-slate-100 rounded-2xl py-3.5 select-none">
                       Vui lòng chọn đáp án
                     </div>
                   )}
